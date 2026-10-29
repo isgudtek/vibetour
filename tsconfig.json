@@ -40,6 +40,10 @@
     "**/*.mts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "vibeconcierge",
+    "vibeconcierge-v*",
+    "newapp",
+    "vibemap"
   ]
 }
