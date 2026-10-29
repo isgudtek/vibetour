@@ -1,0 +1,2937 @@
+{
+  "fiona::rome": {
+    "tags": [
+      {
+        "name": "Third-wave specialty coffee",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:cuisine:qloo:third_wave_coffee",
+        "qlooTagName": "Third Wave Coffee"
+      },
+      {
+        "name": "Artisanal menswear",
+        "category": "Fashion",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:adjective:qloo:artisanal",
+        "qlooTagName": "Artisanal"
+      },
+      {
+        "name": "Contemporary art galleries",
+        "category": "Art",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:amenity:qloo:art_galleries",
+        "qlooTagName": "Art Galleries"
+      },
+      {
+        "name": "Farm-to-table dining",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:culinary_experience:qloo:farm_to_table_dining",
+        "qlooTagName": "Farm To Table Dining"
+      },
+      {
+        "name": "Independent design bookshops",
+        "category": "Books",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:independent_bookstores",
+        "qlooTagName": "Independent Bookstores"
+      },
+      {
+        "name": "Lagom",
+        "category": "Other",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:cuisine:qloo:lomos",
+        "qlooTagName": "Lomos"
+      },
+      {
+        "name": "Nordic interior design",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:nordic_design",
+        "qlooTagName": "Nordic Design"
+      },
+      {
+        "name": "Eco-conscious heritage fashion brands",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:ambience:qloo:eco_conscious",
+        "qlooTagName": "Eco Conscious"
+      },
+      {
+        "name": "wellness",
+        "category": "Other",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:lifestyle:qloo:wellness",
+        "qlooTagName": "Wellness"
+      },
+      {
+        "name": "contemporary art",
+        "category": "Art",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:contemporary_art",
+        "qlooTagName": "Contemporary Art"
+      },
+      {
+        "name": "specialty micro-roasters",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:amenity:qloo:specialty_coffee_roaster",
+        "qlooTagName": "Specialty Coffee Roaster"
+      },
+      {
+        "name": "single-origin coffee",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:ingredient_focus:qloo:single_origin_coffee",
+        "qlooTagName": "Single Origin Coffee"
+      },
+      {
+        "name": "minimalist modern art galleries",
+        "category": "Art",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:decor:qloo:minimalist_gallery",
+        "qlooTagName": "Minimalist Gallery"
+      },
+      {
+        "name": "acoustic neo-classical music",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:style:qloo:neo_classical",
+        "qlooTagName": "Neo-Classical"
+      },
+      {
+        "name": "Nordic gastronomy",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:nordic_cuisine",
+        "qlooTagName": "Nordic Cuisine"
+      },
+      {
+        "name": "high-design boutique accommodations",
+        "category": "Nightlife",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:decor:qloo:high_design",
+        "qlooTagName": "High Design"
+      },
+      {
+        "name": "independent art bookstores",
+        "category": "Books",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:independent_bookstores",
+        "qlooTagName": "Independent Bookstores"
+      },
+      {
+        "name": "sustainable culinary spaces",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:culinary_style:qloo:sustainable",
+        "qlooTagName": "Sustainable"
+      },
+      {
+        "name": "high-concept design",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:plot:qloo:high_concept",
+        "qlooTagName": "High Concept"
+      },
+      {
+        "name": "clean geometric forms",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:aesthetic_property:qloo:clean_geometric_shapes",
+        "qlooTagName": "Clean Geometric Shapes"
+      },
+      {
+        "name": "organic materials",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:sustainability_initiative:qloo:organic_materials",
+        "qlooTagName": "Organic Materials"
+      },
+      {
+        "name": "green technology firm",
+        "category": "Other",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:green_technology",
+        "qlooTagName": "Green Technology"
+      },
+      {
+        "name": "Stockholm",
+        "category": "Other",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:key_market:qloo:stockholm",
+        "qlooTagName": "Stockholm"
+      },
+      {
+        "name": "micro-roasters",
+        "category": "Dining",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:setting:qloo:micro_roastery",
+        "qlooTagName": "Micro Roastery"
+      },
+      {
+        "name": "fair-trade",
+        "category": "Other",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:sustainability_initiative:qloo:fair_trade",
+        "qlooTagName": "Fair Trade"
+      },
+      {
+        "name": "light-roast",
+        "category": "Other",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:menu_highlight:qloo:roast",
+        "qlooTagName": "Roast"
+      },
+      {
+        "name": "single-origin coffees",
+        "category": "Dining",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:ingredient_focus:qloo:single_origin_coffee",
+        "qlooTagName": "Single Origin Coffee"
+      },
+      {
+        "name": "acoustic neo-classical music performances",
+        "category": "Music",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:style:qloo:neo_classical",
+        "qlooTagName": "Neo-Classical"
+      },
+      {
+        "name": "hyper-local, farm-to-table culinary experiences",
+        "category": "Dining",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:good_for:qloo:farm_to_table_experience",
+        "qlooTagName": "Farm-To-Table Experience"
+      },
+      {
+        "name": "Nordic gastronomy principles",
+        "category": "Dining",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:interests:qloo:nordic_gastronomy",
+        "qlooTagName": "Nordic Gastronomy"
+      },
+      {
+        "name": "London",
+        "category": "Other",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:residence:qloo:london",
+        "qlooTagName": "London"
+      },
+      {
+        "name": "quiet independent art bookstores",
+        "category": "Books",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:interests:qloo:independent_art",
+        "qlooTagName": "Independent Art"
+      },
+      {
+        "name": "hidden culinary spaces",
+        "category": "Dining",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:ambience:qloo:hidden",
+        "qlooTagName": "Hidden"
+      },
+      {
+        "name": "environmental mindfulness",
+        "category": "Other",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:interests:qloo:mindfulness",
+        "qlooTagName": "Mindfulness"
+      },
+      {
+        "name": "quiet sophistication",
+        "category": "Other",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:lifestyle:qloo:quiet_luxury",
+        "qlooTagName": "Quiet Luxury"
+      }
+    ],
+    "rationaleReport": "**Corporate Strategy Report – Fiona Lindström – Rome**\n\nFiona is a senior executive from Stockholm who curates experiences through a Nordic lens of lagom, sustainable design, and hyper‑local gastronomy. Her travel agenda blends third‑wave coffee culture, minimalist art, and eco‑conscious fashion with quiet, high‑design hospitality.\n\n**Strategic Taste Rationale**  \n- **Faro – Caffè Specialty** – Offers single‑origin, light‑roast micro‑roasted coffee that mirrors Stockholm’s specialty coffee scene and her preference for fair‑trade, Nordic‑inspired brewing rituals.  \n- **Romeow Cat Bistrot** – A plant‑forward, farm‑to‑table venue that aligns with her Nordic gastronomy principles and love for hidden, eco‑mindful culinary spaces.  \n- **Buddy Veggy Restaurant Cafè** – Delivers hyper‑local, sustainable dishes in a minimalist setting, echoing the clean geometric forms she values in Stockholm interiors.  \n- **Coromandel** – Curates artisanal menswear and heritage fashion pieces that resonate with her affinity for eco‑conscious Nordic brands and quiet sophistication.  \n- **Piperno Restaurant** – Provides a refined, quiet dining experience with a focus on organic, seasonal ingredients, reflecting her London‑inspired appreciation for independent art bookstores and understated elegance.  \n- **Caffè Novecento** – Features acoustic neo‑classical performances in a sleek, modernist space, satisfying her taste for minimalist contemporary art and acoustic music.\n\n**Recommendation**  \nPrioritize **Faro – Caffè Specialty** and **Romeow Cat Bistrot** for day‑time engagements, and schedule evening visits to **Caffè Novecento** and **Piperno Restaurant** to balance coffee culture, sustainable dining, and refined Nordic‑styled ambiance throughout the Rome itinerary.",
+    "venues": [
+      {
+        "id": "BEF2EA8C-74B8-4D71-83E8-7ABC624CFB7B",
+        "name": "Faro - Caffè Specialty",
+        "category": "Cafe",
+        "affinity": 0.8077805634109109,
+        "lat": 41.9101512,
+        "lon": 12.498392599999999,
+        "address": "Via Piave, 55 00187 Roma RM Italy",
+        "image": "https://images.qloo.com/i/BEF2EA8C-74B8-4D71-83E8-7ABC624CFB7B-0W4bPz-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Faro - Caffè Specialty bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "E2CA80DE-824B-42B4-95EA-CBF58CA9B856",
+        "name": "Romeow Cat Bistrot",
+        "category": "Restaurant",
+        "affinity": 0.8099153517244839,
+        "lat": 41.870573799999995,
+        "lon": 12.481553199999999,
+        "address": "Via Francesco Negri, 15 00154 Roma RM Italy",
+        "image": "https://images.qloo.com/i/E2CA80DE-824B-42B4-95EA-CBF58CA9B856-2JS2gR-420x-outside.jpg",
+        "rationale": "A plant‑forward, farm‑to‑table venue that aligns with her Nordic gastronomy principles and love for hidden, eco‑mindful culinary spaces."
+      },
+      {
+        "id": "5D69A43E-9574-4768-8658-5365C6025DAE",
+        "name": "Buddy Veggy Restaurant Cafè",
+        "category": "Restaurant",
+        "affinity": 0.8121491563847436,
+        "lat": 41.896629499999996,
+        "lon": 12.4747104,
+        "address": "Corso Vittorio Emanuele II, 107A 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/5D69A43E-9574-4768-8658-5365C6025DAE-06RFIb-420x-outside.jpg",
+        "rationale": "Delivers hyper‑local, sustainable dishes in a minimalist setting, echoing the clean geometric forms she values in Stockholm interiors."
+      },
+      {
+        "id": "2EC81397-046F-47DC-8CC9-05AC795AEA5C",
+        "name": "Coromandel",
+        "category": "Shop",
+        "affinity": 0.8105617659399247,
+        "lat": 41.899659299999996,
+        "lon": 12.4698354,
+        "address": "Via di Monte Giordano, 60/61 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/2EC81397-046F-47DC-8CC9-05AC795AEA5C-35i4Tq-420x-outside.jpg",
+        "rationale": "Curates artisanal menswear and heritage fashion pieces that resonate with her affinity for eco‑conscious Nordic brands and quiet sophistication."
+      },
+      {
+        "id": "BF1DD296-438A-42AF-AA99-C8B829DC740C",
+        "name": "Piperno Restaurant",
+        "category": "Restaurant",
+        "affinity": 0.8081618686235428,
+        "lat": 41.8923659,
+        "lon": 12.4760379,
+        "address": "Via Monte dè Cenci, 9 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/BF1DD296-438A-42AF-AA99-C8B829DC740C-2pVtpy-420x-outside.jpg",
+        "rationale": "Provides a refined, quiet dining experience with a focus on organic, seasonal ingredients, reflecting her London‑inspired appreciation for independent art bookstores and understated elegance."
+      },
+      {
+        "id": "00474E9A-B1F7-4ACF-BF9C-5FC28C8E1228",
+        "name": "Caffè Novecento",
+        "category": "Cafe",
+        "affinity": 0.8083100411579879,
+        "lat": 41.8992463,
+        "lon": 12.469043399999999,
+        "address": "V. del Governo Vecchio, 12 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/00474E9A-B1F7-4ACF-BF9C-5FC28C8E1228-48D1GW-420x-outside.jpg",
+        "rationale": "Features acoustic neo‑classical performances in a sleek, modernist space, satisfying her taste for minimalist contemporary art and acoustic music."
+      },
+      {
+        "id": "B7459FBF-D75D-4801-9775-CC1BD7FC3439",
+        "name": "Palazzo delle Esposizioni",
+        "category": "Museum",
+        "affinity": 0.809506875338818,
+        "lat": 41.8994596,
+        "lon": 12.490146399999999,
+        "address": "Via Nazionale, 194 00184 Roma RM Italy",
+        "image": "https://images.qloo.com/i/B7459FBF-D75D-4801-9775-CC1BD7FC3439-2XHfOy-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Palazzo delle Esposizioni bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "34C5A56D-CF30-450D-BA59-39F3098642E8",
+        "name": "MONK",
+        "category": "Shop",
+        "affinity": 0.8086653533349304,
+        "lat": 41.9039095,
+        "lon": 12.5387439,
+        "address": "Via Giuseppe Mirri, 35 00159 Roma RM Italy",
+        "image": "https://images.qloo.com/i/34C5A56D-CF30-450D-BA59-39F3098642E8-3SXKQe-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: MONK bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "8AC440FD-88F4-4CCF-9282-CBD66BD1C9FB",
+        "name": "Tempietto del Bramante",
+        "category": "Venue",
+        "affinity": 0.8129070600786359,
+        "lat": 41.8887243,
+        "lon": 12.4664133,
+        "address": "Piazza di S. Pietro in Montorio, 2 00153 Roma RM Italy",
+        "image": "https://images.qloo.com/i/8AC440FD-88F4-4CCF-9282-CBD66BD1C9FB-0SIUOx-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Tempietto del Bramante bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "10B580B4-3FAF-4A13-A5E2-C3C03EBF018F",
+        "name": "Palatine Hill",
+        "category": "Shop",
+        "affinity": 0.8236835075922326,
+        "lat": 41.8894036,
+        "lon": 12.4874662,
+        "address": "00186 Rome, Metropolitan City of Rome Capital Italy",
+        "image": "https://images.qloo.com/i/10B580B4-3FAF-4A13-A5E2-C3C03EBF018F-3tJg4A-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Palatine Hill bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "5CF039EF-5FB9-4051-BDDF-7EB15DFDC72C",
+        "name": "Galleria Borghese",
+        "category": "Museum",
+        "affinity": 0.8119232058406947,
+        "lat": 41.9142103,
+        "lon": 12.4921442,
+        "address": "Piazzale Scipione Borghese, 5 00197 Roma RM Italy",
+        "image": "https://images.qloo.com/i/5CF039EF-5FB9-4051-BDDF-7EB15DFDC72C-1yulQi-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Galleria Borghese bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "7109A225-401B-4A07-94F8-EA739FB17401",
+        "name": "Rino Montesacro",
+        "category": "Cafe",
+        "affinity": 0.8114070093158288,
+        "lat": 41.9328682,
+        "lon": 12.5358038,
+        "address": "Viale Gottardo, 62/64 00141 Roma RM Italy",
+        "image": "https://images.qloo.com/i/7109A225-401B-4A07-94F8-EA739FB17401-4FCE44-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Rino Montesacro bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "6A4CE597-5D5A-4E3A-B733-0E8CBB592F70",
+        "name": "The Keats - Shelley House",
+        "category": "Museum",
+        "affinity": 0.8116701017333371,
+        "lat": 41.9057494,
+        "lon": 12.482501899999999,
+        "address": "Piazza di Spagna, 26 00187 Roma RM Italy",
+        "image": "https://images.qloo.com/i/6A4CE597-5D5A-4E3A-B733-0E8CBB592F70-2krvbv-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: The Keats - Shelley House bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "35DD69FF-8526-4AB2-B17E-AFCF0474D65D",
+        "name": "Arch of Titus",
+        "category": "Venue",
+        "affinity": 0.8130303616613563,
+        "lat": 41.8907044,
+        "lon": 12.4885842,
+        "address": "Via Sacra 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/35DD69FF-8526-4AB2-B17E-AFCF0474D65D-3V6w0B-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Arch of Titus bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "1634B6ED-676B-4FF5-ABE2-9D819446DD60",
+        "name": "Biblioteca Angelica",
+        "category": "Bar",
+        "affinity": 0.8133050059236928,
+        "lat": 41.9008002,
+        "lon": 12.4744636,
+        "address": "P.za di S. Agostino, 8 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/1634B6ED-676B-4FF5-ABE2-9D819446DD60-3bARKQ-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Biblioteca Angelica bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "AA76DA8A-FACB-4CE9-B83A-B7ACA8123727",
+        "name": "Palazzetto dello Sport",
+        "category": "Park",
+        "affinity": 0.8090713379390266,
+        "lat": 41.929645099999995,
+        "lon": 12.4707303,
+        "address": "Piazza Apollodoro, 10 00196 Roma RM Italy",
+        "image": "https://images.qloo.com/i/AA76DA8A-FACB-4CE9-B83A-B7ACA8123727-2zhbFs-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Palazzetto dello Sport bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "46F482B8-B835-4F50-A0EE-68F280A73140",
+        "name": "BARRED",
+        "category": "Bar",
+        "affinity": 0.8082285050885036,
+        "lat": 41.883575199999996,
+        "lon": 12.5137121,
+        "address": "Via Cesena, 30 00182 Roma RM Italy",
+        "image": "https://images.qloo.com/i/46F482B8-B835-4F50-A0EE-68F280A73140-3IcSD7-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: BARRED bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "4C6822E0-B895-45BE-A3C2-E9894AD986C1",
+        "name": "Ponte Umberto I",
+        "category": "Venue",
+        "affinity": 0.8131111102977058,
+        "lat": 41.9026609,
+        "lon": 12.471275499999999,
+        "address": "00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/4C6822E0-B895-45BE-A3C2-E9894AD986C1-2qAjH9-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Ponte Umberto I bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      },
+      {
+        "id": "2D75E6D1-CFE0-4A1A-B13A-D67D76E92F44",
+        "name": "Bar dei Brutti",
+        "category": "Bar",
+        "affinity": 0.8102316827729759,
+        "lat": 41.8975035,
+        "lon": 12.5141674,
+        "address": "Via dei Volsci, 71-73 00185 Roma RM Italy",
+        "image": "https://images.qloo.com/i/2D75E6D1-CFE0-4A1A-B13A-D67D76E92F44-21ljfF-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Bar dei Brutti bridges the client's Third-wave specialty coffee & Artisanal menswear preferences with Rome's local scene."
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "09:00",
+        "title": "Faro - Caffè Specialty",
+        "venueId": "BEF2EA8C-74B8-4D71-83E8-7ABC624CFB7B",
+        "notes": "Cafe"
+      },
+      {
+        "time": "12:30",
+        "title": "Romeow Cat Bistrot",
+        "venueId": "E2CA80DE-824B-42B4-95EA-CBF58CA9B856",
+        "notes": "Restaurant"
+      },
+      {
+        "time": "16:00",
+        "title": "Buddy Veggy Restaurant Cafè",
+        "venueId": "5D69A43E-9574-4768-8658-5365C6025DAE",
+        "notes": "Restaurant"
+      },
+      {
+        "time": "19:30",
+        "title": "Coromandel",
+        "venueId": "2EC81397-046F-47DC-8CC9-05AC795AEA5C",
+        "notes": "Shop"
+      }
+    ],
+    "logs": [
+      "[INTAKE] Received profile for Fiona Lindström.",
+      "[OSINT] No URL provided; using supplied social text dump.",
+      "[LLM AGENT 1] Scanning text stream for micro-cultural preferences...",
+      "[LLM] Extracting structured taste parameters from unstructured social text...",
+      "[LLM AGENT 1] Isolated 23 taste variables: Third-wave specialty coffee, Artisanal menswear, Contemporary art galleries, Farm-to-table dining, Independent design bookshops, Lagom, Nordic interior design, Eco-conscious heritage fashion brands, wellness, contemporary art, specialty micro-roasters, single-origin coffee, minimalist modern art galleries, acoustic neo-classical music, Nordic gastronomy, high-design boutique accommodations, independent art bookstores, sustainable culinary spaces, high-concept design, clean geometric forms, organic materials, green technology firm, Stockholm",
+      "[LLM] Merged user additions: Third-wave specialty coffee, Artisanal menswear, Contemporary art galleries, Farm-to-table dining, Independent design bookshops, Lagom, Nordic interior design, Eco-conscious heritage fashion brands, wellness, contemporary art, specialty micro-roasters, single-origin coffee, minimalist modern art galleries, acoustic neo-classical music, Nordic gastronomy, high-design boutique accommodations, independent art bookstores, sustainable culinary spaces, high-concept design, clean geometric forms, organic materials, green technology firm, Stockholm, micro-roasters, fair-trade, light-roast, single-origin coffees, acoustic neo-classical music performances, hyper-local, farm-to-table culinary experiences, Nordic gastronomy principles, London, quiet independent art bookstores, hidden culinary spaces, environmental mindfulness, quiet sophistication",
+      "[QLOO] Resolving 35 taste indicators to Qloo entity IDs...",
+      "[QLOO TAG MAP] Third-wave specialty coffee -> Third Wave Coffee (urn:tag:cuisine:qloo:third_wave_coffee)",
+      "[QLOO TAG MAP] Artisanal menswear -> Artisanal (urn:tag:adjective:qloo:artisanal)",
+      "[QLOO TAG MAP] Contemporary art galleries -> Art Galleries (urn:tag:amenity:qloo:art_galleries)",
+      "[QLOO TAG MAP] Farm-to-table dining -> Farm To Table Dining (urn:tag:culinary_experience:qloo:farm_to_table_dining)",
+      "[QLOO TAG MAP] Independent design bookshops -> Independent Bookstores (urn:tag:interests:qloo:independent_bookstores)",
+      "[QLOO TAG MAP] Lagom -> Lomos (urn:tag:cuisine:qloo:lomos)",
+      "[QLOO TAG MAP] Nordic interior design -> Nordic Design (urn:tag:interests:qloo:nordic_design)",
+      "[QLOO TAG MAP] Eco-conscious heritage fashion brands -> Eco Conscious (urn:tag:ambience:qloo:eco_conscious)",
+      "[QLOO TAG MAP] wellness -> Wellness (urn:tag:lifestyle:qloo:wellness)",
+      "[QLOO TAG MAP] contemporary art -> Contemporary Art (urn:tag:interests:qloo:contemporary_art)",
+      "[QLOO TAG MAP] specialty micro-roasters -> Specialty Coffee Roaster (urn:tag:amenity:qloo:specialty_coffee_roaster)",
+      "[QLOO TAG MAP] single-origin coffee -> Single Origin Coffee (urn:tag:ingredient_focus:qloo:single_origin_coffee)",
+      "[QLOO TAG MAP] minimalist modern art galleries -> Minimalist Gallery (urn:tag:decor:qloo:minimalist_gallery)",
+      "[QLOO TAG MAP] acoustic neo-classical music -> Neo-Classical (urn:tag:style:qloo:neo_classical)",
+      "[QLOO TAG MAP] Nordic gastronomy -> Nordic Cuisine (urn:tag:interests:qloo:nordic_cuisine)",
+      "[QLOO TAG MAP] high-design boutique accommodations -> High Design (urn:tag:decor:qloo:high_design)",
+      "[QLOO TAG MAP] independent art bookstores -> Independent Bookstores (urn:tag:interests:qloo:independent_bookstores)",
+      "[QLOO TAG MAP] sustainable culinary spaces -> Sustainable (urn:tag:culinary_style:qloo:sustainable)",
+      "[QLOO TAG MAP] high-concept design -> High Concept (urn:tag:plot:qloo:high_concept)",
+      "[QLOO TAG MAP] clean geometric forms -> Clean Geometric Shapes (urn:tag:aesthetic_property:qloo:clean_geometric_shapes)",
+      "[QLOO TAG MAP] organic materials -> Organic Materials (urn:tag:sustainability_initiative:qloo:organic_materials)",
+      "[QLOO TAG MAP] green technology firm -> Green Technology (urn:tag:interests:qloo:green_technology)",
+      "[QLOO TAG MAP] Stockholm -> Stockholm (urn:tag:key_market:qloo:stockholm)",
+      "[QLOO TAG MAP] micro-roasters -> Micro Roastery (urn:tag:setting:qloo:micro_roastery)",
+      "[QLOO TAG MAP] fair-trade -> Fair Trade (urn:tag:sustainability_initiative:qloo:fair_trade)",
+      "[QLOO TAG MAP] light-roast -> Roast (urn:tag:menu_highlight:qloo:roast)",
+      "[QLOO TAG MAP] single-origin coffees -> Single Origin Coffee (urn:tag:ingredient_focus:qloo:single_origin_coffee)",
+      "[QLOO TAG MAP] acoustic neo-classical music performances -> Neo-Classical (urn:tag:style:qloo:neo_classical)",
+      "[QLOO TAG MAP] hyper-local, farm-to-table culinary experiences -> Farm-To-Table Experience (urn:tag:good_for:qloo:farm_to_table_experience)",
+      "[QLOO TAG MAP] Nordic gastronomy principles -> Nordic Gastronomy (urn:tag:interests:qloo:nordic_gastronomy)",
+      "[QLOO TAG MAP] London -> London (urn:tag:residence:qloo:london)",
+      "[QLOO TAG MAP] quiet independent art bookstores -> Independent Art (urn:tag:interests:qloo:independent_art)",
+      "[QLOO TAG MAP] hidden culinary spaces -> Hidden (urn:tag:ambience:qloo:hidden)",
+      "[QLOO TAG MAP] environmental mindfulness -> Mindfulness (urn:tag:interests:qloo:mindfulness)",
+      "[QLOO TAG MAP] quiet sophistication -> Quiet Luxury (urn:tag:lifestyle:qloo:quiet_luxury)",
+      "[QLOO] /search resolved entity \"Third-wave specialty coffee\" -> Gymnasia Cafe | Lisi Lake - specialty coffee & crepes (AD6F8BD0-086F-43F0-A676-5BD3364AE352)",
+      "[QLOO] /search resolved entity \"Artisanal menswear\" -> Artisanal (28A05169-C648-4419-B7E9-0CBA4D7A6D80)",
+      "[QLOO] /search resolved entity \"Contemporary art galleries\" -> Erarta (B1F32E47-B09F-4406-B9F9-65F38405DA0E)",
+      "[QLOO] /search resolved entity \"Farm-to-table dining\" -> Heathfield Farm - Dining & Carvery (9DFA7E6D-D4D5-4833-ABB5-45B93AF76888)",
+      "[QLOO] /search resolved entity \"Independent design bookshops\" -> the Design Museum (ACB1D32F-D9DA-455B-A962-14A6D7B4ABB2)",
+      "[QLOO] /search resolved entity \"Lagom\" -> Lago Moreno Este (359EF64F-6A1E-4462-BF1C-F01303BB1D6E)",
+      "[QLOO] /search resolved entity \"Nordic interior design\" -> Interior design: Transform your space with style (5754C058-DB52-4C04-8D26-6D472504A59D)",
+      "[QLOO] /search resolved entity \"Eco-conscious heritage fashion brands\" -> Gopegarh Heritage & Nature Eco-Tourism Centre (5F7E8F7B-6BCD-4421-BD23-D8E1E3CC6676)",
+      "[QLOO] /search resolved entity \"wellness\" -> Wellness (8E17F399-9164-4FAD-9E10-1DB6352E0672)",
+      "[QLOO] /search resolved entity \"contemporary art\" -> Contemporary Arts Center (19CBECBD-F241-4F13-A0C9-6D479FAFA220)",
+      "[QLOO] /search resolved entity \"specialty micro-roasters\" -> The Coffee Lab - Specialty Coffee Roasters (851E4B94-D3F2-425F-94FD-C21AB1F56FC1)",
+      "[QLOO] /search resolved entity \"single-origin coffee\" -> Single Origin (Coffee & Kitchen). (2ED321D8-E926-410B-A8C5-E455FC534669)",
+      "[QLOO] /search resolved entity \"minimalist modern art galleries\" -> Louisiana Museum of Modern Art (378878A3-9408-435E-8C39-2A501A57E1E2)",
+      "[QLOO] /search resolved entity \"acoustic neo-classical music\" -> The 50 Greatest Pieces of Classical Music (AC8762A2-595C-4A38-AEC4-7020B2060ED8)",
+      "[QLOO] /search resolved entity \"Nordic gastronomy\" -> Nordic Gastronomy (52C61484-D4FC-40DA-AA77-9445B4F1138C)",
+      "[QLOO] /search resolved entity \"high-design boutique accommodations\" -> Rolex Boutique Design District (21E28609-87B1-4BFD-92B8-30864BE47505)",
+      "[QLOO] /search resolved entity \"independent art bookstores\" -> Hopkinson Antique, Art & independent centre (C6DEA2AF-D062-4FEC-B38B-A2CB17DCC7F9)",
+      "[QLOO] /search resolved entity \"sustainable culinary spaces\" -> Anandmai - Sustainable Living Spaces (3899B222-4A6A-47ED-A5EF-3813B47A313D)",
+      "[QLOO] /search resolved entity \"high-concept design\" -> the Design Museum (ACB1D32F-D9DA-455B-A962-14A6D7B4ABB2)",
+      "[QLOO] /search resolved entity \"clean geometric forms\" -> Come Clean (1D10F254-9274-4967-B99B-535925F92DED)",
+      "[QLOO] /search resolved entity \"organic materials\" -> The Golden Compass (His Dark Materials, #1) (E02E3135-E371-4417-85E9-04009D44B6E8)",
+      "[QLOO] /search resolved entity \"green technology firm\" -> Surya Green Banquet (96682088-B2BC-41C0-8B9D-14C5BFC383FA)",
+      "[QLOO] /search resolved entity \"Stockholm\" -> Stockholm (67B1EA06-A470-400C-82D3-40C778A75693)",
+      "[QLOO] /search resolved entity \"micro-roasters\" -> Mozart's Coffee Roasters (F03414CA-B4CF-4F58-A321-CD8DBB8FC365)",
+      "[QLOO] /search resolved entity \"fair-trade\" -> Fair Trade (C37356F1-8D13-4C19-9746-0AA141662279)",
+      "[QLOO] /search resolved entity \"light-roast\" -> Light roast Coffee (47DB39FE-F45A-402B-B139-BE5913D1112B)",
+      "[QLOO] /search resolved entity \"single-origin coffees\" -> Steam Single Origin Coffees (07557A7D-6FFF-4368-B3CA-6ED10752BE43)",
+      "[QLOO] /search resolved entity \"acoustic neo-classical music performances\" -> The 50 Greatest Pieces of Classical Music (AC8762A2-595C-4A38-AEC4-7020B2060ED8)",
+      "[QLOO] /search resolved entity \"hyper-local, farm-to-table culinary experiences\" -> Culinary Table (B39C6237-057A-48A4-86C0-45DF3C8FB252)",
+      "[QLOO] /search resolved entity \"Nordic gastronomy principles\" -> Olívio Bar & Gastronomy (38A39319-82CD-4F44-8CCE-7BDE75AF8536)",
+      "[QLOO] /search resolved entity \"London\" -> London (4F18635D-75D6-43EC-B8B9-8DFAEB8C5A29)",
+      "[QLOO] /search resolved entity \"quiet independent art bookstores\" -> Hopkinson Antique, Art & independent centre (C6DEA2AF-D062-4FEC-B38B-A2CB17DCC7F9)",
+      "[QLOO] /search resolved entity \"hidden culinary spaces\" -> American Swastika: Inside the White Power Movement's Hidden Spaces of Hate (E03656D8-A503-47B0-AAC9-64DAF50096A7)",
+      "[QLOO] /search resolved entity \"environmental mindfulness\" -> Environmental Park Ipiranga (ED93D89D-3D90-41AA-83B0-1E9C1AE38393)",
+      "[QLOO] /search resolved entity \"quiet sophistication\" -> Quiet Is the New Loud (4D11F6E9-D519-49D7-9E6E-75AD016DCA96)",
+      "[QLOO] Multi-layered Qloo query: 35 tag signals + 35 entity affinity seeds.",
+      "[QLOO] /v2/insights place signals(tags:35, entities:35) location=Rome offset=0 take=24 -> 24 candidates",
+      "[QLOO] /v2/insights place signals(tags:35, entities:35) location=Rome offset=24 take=24 -> 24 candidates",
+      "[QLOO] /v2/insights place signals(tags:35, entities:35) location=Rome offset=48 take=24 -> 24 candidates",
+      "[QLOO] /v2/trending unavailable for seeds; skipped",
+      "[RANK] tag-overlap top3/category -> Cafe:3 Restaurant:3 Shop:3 Museum:3 Venue:3 Bar:3 Park:1 (kept 19/72 unique)",
+      "[AGENT] Synthesizing corporate strategy report and taste rationales...",
+      "[SCHEDULER] Composing time-blocked 1-day itinerary...",
+      "[EXPORT] Package ready: PDF/ICS/CSV available.",
+      "[CACHE] ✅ Result saved to disk for future instant retrieval (key: fiona::rome)."
+    ],
+    "mode": "live",
+    "cachedAt": 1793217468583
+  },
+  "kenji::new york": {
+    "tags": [
+      {
+        "name": "Vinyl listening bars",
+        "category": "Nightlife",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:setting:qloo:listening_bar",
+        "qlooTagName": "Listening Bar"
+      },
+      {
+        "name": "Brutalist architecture",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:brutalist_architecture",
+        "qlooTagName": "Brutalist Architecture"
+      },
+      {
+        "name": "Mid-Century Modern",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:mid_century_modern",
+        "qlooTagName": "Mid Century Modern"
+      },
+      {
+        "name": "Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Independent Books & Graphic Novels",
+        "category": "Books",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:genre:media:novels",
+        "qlooTagName": "Novels"
+      },
+      {
+        "name": "Scandinavian Minimalism",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:scandinavian_minimalism",
+        "qlooTagName": "Scandinavian Minimalism"
+      },
+      {
+        "name": "Artisanal Craftsmanship",
+        "category": "Other",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:artisanal_craftsmanship",
+        "qlooTagName": "Artisanal Craftsmanship"
+      },
+      {
+        "name": "Mid-century Brutalism",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:design_inspiration:qloo:brutalism",
+        "qlooTagName": "Brutalism"
+      },
+      {
+        "name": "Independent Japanese Menswear",
+        "category": "Fashion",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Vintage Jazz Vinyl",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interest_adjacency:qloo:vintage_jazz_vinyl",
+        "qlooTagName": "Vintage Jazz Vinyl"
+      },
+      {
+        "name": "Vintage Electronic Vinyl",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:material:qloo:vinyl",
+        "qlooTagName": "Vinyl"
+      },
+      {
+        "name": "Underground Listening Bars",
+        "category": "Nightlife",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Third-wave Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:ingredient_focus:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Single-origin Coffee",
+        "category": "Dining",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Geometric Interior Design",
+        "category": "Design",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Functionalist Aesthetic",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:aesthetic_property:qloo:functionalist",
+        "qlooTagName": "Functionalist"
+      },
+      {
+        "name": "Understated Luxury",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Heritage Menswear Boutiques",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:shopping:qloo:boutiques",
+        "qlooTagName": "Boutiques"
+      },
+      {
+        "name": "Sustainable Craftsmanship",
+        "category": "Fashion",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Independent Design Bookshops",
+        "category": "Books",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:independent_design",
+        "qlooTagName": "Independent Design"
+      },
+      {
+        "name": "Low-lit Cocktail Lounges",
+        "category": "Nightlife",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Ambient Experimental Cuts",
+        "category": "Music",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "High-fidelity Audio",
+        "category": "Music",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Minimalist Aesthetic",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Boutique Digital Agency",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Architectural Publications",
+        "category": "Books",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Tokyo Daikanyama District",
+        "category": "Design",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Shibuya Underground Bars",
+        "category": "Nightlife",
+        "sourceContext": "social profile"
+      }
+    ],
+    "rationaleReport": "**Corporate Hospitality Strategy Report – Kenji Tanaka – New York**\n\n**Client Archetype**  \nKenji Tanaka is a culturally‑savvy executive who curates experiences that fuse high‑design minimalism with underground music and artisanal craftsmanship, echoing the refined yet avant‑garde vibe of Tokyo’s Daikanyama and Shibuya districts. His itinerary demands venues that serve as both aesthetic touchstones and platforms for curated audio‑visual immersion.\n\n**Strategic Taste Rationale**  \n- **Westfield World Trade Center** – The sleek, geometric atrium mirrors Kenji’s Scandinavian minimalism while housing boutique Japanese menswear pop‑ups that echo his heritage‑focused wardrobe.  \n- **Smalls Jazz Club** – An intimate, low‑lit space that programs vintage jazz and experimental electronic sets, satisfying his love for high‑fidelity vinyl listening bars.  \n- **Whitney Museum of American Art** – Its Brutalist‑inspired façade and rotating exhibitions on contemporary design align with his fascination for functionalist aesthetics and architectural publications.  \n- **New Museum** – A hub for avant‑garde installations and independent design book launches, resonating with his appetite for experimental cuts and independent design literature.  \n- **Le Pain Quotidien** – Offers third‑wave, single‑origin coffee in a communal, mid‑century modern setting, catering to his specialty‑coffee and understated luxury preferences.  \n- **Chelsea Market** – A bustling marketplace of artisanal food stalls and heritage menswear boutiques, delivering the sustainable craftsmanship and vintage vibe he seeks.\n\n**Closing Recommendation**  \nIntegrate these venues into a curated “Design & Sound” itinerary that alternates immersive cultural stops with premium coffee breaks, reinforcing Kenji’s brand narrative of sophisticated, under‑the‑radar discovery while providing ample networking opportunities for his boutique digital agency contacts.",
+    "venues": [
+      {
+        "id": "0E453B41-5D83-4446-863F-2531264D53D3",
+        "name": "Westfield World Trade Center",
+        "category": "Shop",
+        "affinity": 0.7917910614592516,
+        "lat": 40.7114207,
+        "lon": -74.0114897,
+        "address": "185 Greenwich St New York, NY 10007",
+        "image": "https://images.qloo.com/i/0E453B41-5D83-4446-863F-2531264D53D3-3zh6TR-420x-outside.jpg",
+        "rationale": "The sleek, geometric atrium mirrors Kenji’s Scandinavian minimalism while housing boutique Japanese menswear pop‑ups that echo his heritage‑focused wardrobe."
+      },
+      {
+        "id": "A7F9164F-A8ED-47A8-B179-6676A43B31BD",
+        "name": "Smalls Jazz Club",
+        "category": "Restaurant",
+        "affinity": 0.7933246473824521,
+        "lat": 40.7343873,
+        "lon": -74.002765,
+        "address": "183 W 10th St New York, NY 10014",
+        "image": "https://images.qloo.com/i/A7F9164F-A8ED-47A8-B179-6676A43B31BD-3mpYnQ-420x-outside.jpg",
+        "rationale": "An intimate, low‑lit space that programs vintage jazz and experimental electronic sets, satisfying his love for high‑fidelity vinyl listening bars."
+      },
+      {
+        "id": "ABF5777A-1DE8-4F68-836C-147A63F0DA07",
+        "name": "Whitney Museum of American Art",
+        "category": "Museum",
+        "affinity": 0.7878860418405838,
+        "lat": 40.7395877,
+        "lon": -74.0088629,
+        "address": "99 Gansevoort St New York, NY 10014",
+        "image": "https://images.qloo.com/i/ABF5777A-1DE8-4F68-836C-147A63F0DA07-0qQmT1-420x-outside.jpg",
+        "rationale": "Its Brutalist‑inspired façade and rotating exhibitions on contemporary design align with his fascination for functionalist aesthetics and architectural publications."
+      },
+      {
+        "id": "CFA32EED-3DEB-41C6-A827-A7B3CA88FADB",
+        "name": "New Museum",
+        "category": "Museum",
+        "affinity": 0.7971654332380492,
+        "lat": 40.722337599999996,
+        "lon": -73.9928905,
+        "address": "235 Bowery New York, NY 10002",
+        "image": "https://images.qloo.com/i/CFA32EED-3DEB-41C6-A827-A7B3CA88FADB-08KEKg-420x-outside.jpg",
+        "rationale": "A hub for avant‑garde installations and independent design book launches, resonating with his appetite for experimental cuts and independent design literature."
+      },
+      {
+        "id": "89E50087-2EDE-49E6-87AA-FFA33E006A63",
+        "name": "Le Pain Quotidien",
+        "category": "Shop",
+        "affinity": 0.7888323027374284,
+        "lat": 40.7651275,
+        "lon": -73.9834024,
+        "address": "250 W 55th St New York, NY 10019",
+        "image": "https://images.qloo.com/i/89E50087-2EDE-49E6-87AA-FFA33E006A63-47FUh0-420x-outside.jpg",
+        "rationale": "Offers third‑wave, single‑origin coffee in a communal, mid‑century modern setting, catering to his specialty‑coffee and understated luxury preferences."
+      },
+      {
+        "id": "168322E2-0EBA-4065-9F9B-A647A5AC62F2",
+        "name": "Chelsea Market",
+        "category": "Shop",
+        "affinity": 0.7878656545679302,
+        "lat": 40.7424396,
+        "lon": -74.0061439,
+        "address": "75 9th Ave New York, NY 10011",
+        "image": "https://images.qloo.com/i/168322E2-0EBA-4065-9F9B-A647A5AC62F2-4wMh3y-420x-outside.jpg",
+        "rationale": "A bustling marketplace of artisanal food stalls and heritage menswear boutiques, delivering the sustainable craftsmanship and vintage vibe he seeks."
+      },
+      {
+        "id": "D936B367-5AFE-4C45-8650-4AA725E086C1",
+        "name": "St Kilda Coffee",
+        "category": "Cafe",
+        "affinity": 0.7890778566873903,
+        "lat": 40.7590143,
+        "lon": -73.9902129,
+        "address": "328 W 44th St New York, NY 10036",
+        "image": "https://images.qloo.com/i/D936B367-5AFE-4C45-8650-4AA725E086C1-3mL9JK-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: St Kilda Coffee bridges the client's Vinyl listening bars & Brutalist architecture preferences with New York's local scene."
+      },
+      {
+        "id": "C11054C4-DCB0-4CEC-81E3-B962D433C8B8",
+        "name": "Bookmarks Rooftop Lounge",
+        "category": "Bar",
+        "affinity": 0.8016719232426293,
+        "lat": 40.752125899999996,
+        "lon": -73.979434,
+        "address": "299 Madison Ave #14 New York, NY 10017",
+        "image": "https://images.qloo.com/i/C11054C4-DCB0-4CEC-81E3-B962D433C8B8-2ZtgBF-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Bookmarks Rooftop Lounge bridges the client's Vinyl listening bars & Brutalist architecture preferences with New York's local scene."
+      },
+      {
+        "id": "4F647373-76A8-4CA1-808A-95835EB41F59",
+        "name": "Gregorys Coffee",
+        "category": "Cafe",
+        "affinity": 0.7888847851007007,
+        "lat": 40.7612507,
+        "lon": -73.9833608,
+        "address": "762 7th Ave New York, NY 10019",
+        "image": "https://images.qloo.com/i/4F647373-76A8-4CA1-808A-95835EB41F59-1OrJF9-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Gregorys Coffee bridges the client's Vinyl listening bars & Brutalist architecture preferences with New York's local scene."
+      },
+      {
+        "id": "5024656F-87C6-4B76-9130-F2EBF30F3A15",
+        "name": "Tenement Museum",
+        "category": "Museum",
+        "affinity": 0.7905091711231217,
+        "lat": 40.718818,
+        "lon": -73.9900876,
+        "address": "103 Orchard St New York, NY 10002",
+        "image": "https://images.qloo.com/i/5024656F-87C6-4B76-9130-F2EBF30F3A15-35kBFt-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Tenement Museum bridges the client's Vinyl listening bars & Brutalist architecture preferences with New York's local scene."
+      },
+      {
+        "id": "1B6057AB-B921-4701-B54D-DE47DA705BDF",
+        "name": "DUMBO",
+        "category": "Cafe",
+        "affinity": 0.7884100697104642,
+        "lat": 40.7037372,
+        "lon": -73.9957648,
+        "address": "Brooklyn, NY 10038",
+        "image": "https://images.qloo.com/i/1B6057AB-B921-4701-B54D-DE47DA705BDF-2PQgAw-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: DUMBO bridges the client's Vinyl listening bars & Brutalist architecture preferences with New York's local scene."
+      },
+      {
+        "id": "8121FA26-E005-4E74-ABE2-57FCA83DE043",
+        "name": "Royal Tenenbaums House",
+        "category": "Theater",
+        "affinity": 0.7884968763925747,
+        "lat": 40.8237771,
+        "lon": -73.9465103,
+        "address": "339 Convent Ave New York, NY 10031",
+        "image": "https://images.qloo.com/i/8121FA26-E005-4E74-ABE2-57FCA83DE043-2nwgvG-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Royal Tenenbaums House bridges the client's Vinyl listening bars & Brutalist architecture preferences with New York's local scene."
+      },
+      {
+        "id": "D0472C8E-6911-495B-B981-4502DDF14832",
+        "name": "The Hoot Owl",
+        "category": "Restaurant",
+        "affinity": 0.7966778737359127,
+        "lat": 44.5923723,
+        "lon": -75.1678388,
+        "address": "40 Park St Canton, NY 13617",
+        "image": "https://images.qloo.com/i/D0472C8E-6911-495B-B981-4502DDF14832-2LIRgq-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: The Hoot Owl bridges the client's Vinyl listening bars & Brutalist architecture preferences with New York's local scene."
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "09:00",
+        "title": "Westfield World Trade Center",
+        "venueId": "0E453B41-5D83-4446-863F-2531264D53D3",
+        "notes": "Shop"
+      },
+      {
+        "time": "12:30",
+        "title": "Smalls Jazz Club",
+        "venueId": "A7F9164F-A8ED-47A8-B179-6676A43B31BD",
+        "notes": "Restaurant"
+      },
+      {
+        "time": "16:00",
+        "title": "Whitney Museum of American Art",
+        "venueId": "ABF5777A-1DE8-4F68-836C-147A63F0DA07",
+        "notes": "Museum"
+      },
+      {
+        "time": "19:30",
+        "title": "New Museum",
+        "venueId": "CFA32EED-3DEB-41C6-A827-A7B3CA88FADB",
+        "notes": "Museum"
+      }
+    ],
+    "logs": [
+      "[INTAKE] Received profile for Kenji Tanaka.",
+      "[OSINT] No URL provided; using supplied social text dump.",
+      "[LLM AGENT 1] Scanning text stream for micro-cultural preferences and entity anchors...",
+      "[LLM] Extracting structured taste parameters and specific brand/artist entities...",
+      "[LLM AGENT 1] Diligently isolated 28 taste variables: Vinyl listening bars, Brutalist architecture, Mid-Century Modern, Specialty Coffee, Independent Books & Graphic Novels, Scandinavian Minimalism, Artisanal Craftsmanship, Mid-century Brutalism, Independent Japanese Menswear, Vintage Jazz Vinyl, Vintage Electronic Vinyl, Underground Listening Bars, Third-wave Specialty Coffee, Single-origin Coffee, Geometric Interior Design, Functionalist Aesthetic, Understated Luxury, Heritage Menswear Boutiques, Sustainable Craftsmanship, Independent Design Bookshops, Low-lit Cocktail Lounges, Ambient Experimental Cuts, High-fidelity Audio, Minimalist Aesthetic, Boutique Digital Agency, Architectural Publications, Tokyo Daikanyama District, Shibuya Underground Bars",
+      "[LLM AGENT 1] Isolated 9 specific cultural entity anchors: Daikanyama, Shibuya, Tokyo, London, Japan, Mid-century Brutalist Architecture, Third-wave Coffee Roasters, Heritage Menswear Boutiques, Independent Design Bookshops",
+      "[QLOO] Resolving 24 taste indicators to Qloo tag URNs...",
+      "[QLOO TAG MAP] Vinyl listening bars -> Listening Bar (urn:tag:setting:qloo:listening_bar)",
+      "[QLOO TAG MAP] Brutalist architecture -> Brutalist Architecture (urn:tag:decor:qloo:brutalist_architecture)",
+      "[QLOO TAG MAP] Mid-Century Modern -> Mid Century Modern (urn:tag:decor:qloo:mid_century_modern)",
+      "[QLOO TAG MAP] Specialty Coffee -> Specialty Coffee (urn:tag:interests:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Independent Books & Graphic Novels -> Novels (urn:tag:genre:media:novels)",
+      "[QLOO TAG MAP] Scandinavian Minimalism -> Scandinavian Minimalism (urn:tag:decor:qloo:scandinavian_minimalism)",
+      "[QLOO TAG MAP] Artisanal Craftsmanship -> Artisanal Craftsmanship (urn:tag:interests:qloo:artisanal_craftsmanship)",
+      "[QLOO TAG MAP] Mid-century Brutalism -> Brutalism (urn:tag:design_inspiration:qloo:brutalism)",
+      "[QLOO TAG MAP] Independent Japanese Menswear -> no confident Qloo tag",
+      "[QLOO TAG MAP] Vintage Jazz Vinyl -> Vintage Jazz Vinyl (urn:tag:interest_adjacency:qloo:vintage_jazz_vinyl)",
+      "[QLOO TAG MAP] Vintage Electronic Vinyl -> Vinyl (urn:tag:material:qloo:vinyl)",
+      "[QLOO TAG MAP] Underground Listening Bars -> no confident Qloo tag",
+      "[QLOO TAG MAP] Third-wave Specialty Coffee -> Specialty Coffee (urn:tag:ingredient_focus:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Single-origin Coffee -> no confident Qloo tag",
+      "[QLOO TAG MAP] Geometric Interior Design -> no confident Qloo tag",
+      "[QLOO TAG MAP] Functionalist Aesthetic -> Functionalist (urn:tag:aesthetic_property:qloo:functionalist)",
+      "[QLOO TAG MAP] Understated Luxury -> no confident Qloo tag",
+      "[QLOO TAG MAP] Heritage Menswear Boutiques -> Boutiques (urn:tag:shopping:qloo:boutiques)",
+      "[QLOO TAG MAP] Sustainable Craftsmanship -> no confident Qloo tag",
+      "[QLOO TAG MAP] Independent Design Bookshops -> Independent Design (urn:tag:interests:qloo:independent_design)",
+      "[QLOO TAG MAP] Low-lit Cocktail Lounges -> no confident Qloo tag",
+      "[QLOO TAG MAP] Ambient Experimental Cuts -> no confident Qloo tag",
+      "[QLOO TAG MAP] High-fidelity Audio -> no confident Qloo tag",
+      "[QLOO TAG MAP] Minimalist Aesthetic -> no confident Qloo tag",
+      "[QLOO TAG MAP] Boutique Digital Agency -> no confident Qloo tag",
+      "[QLOO TAG MAP] Architectural Publications -> no confident Qloo tag",
+      "[QLOO TAG MAP] Tokyo Daikanyama District -> no confident Qloo tag",
+      "[QLOO TAG MAP] Shibuya Underground Bars -> no confident Qloo tag",
+      "[QLOO] /search resolved entity \"Daikanyama\" -> Daikanyama (E9C466D1-E948-4438-8262-44C30CBEA418)",
+      "[QLOO] /search resolved entity \"Shibuya\" -> 渋谷 (58125D60-1214-4CFC-BFB0-999ECB5F303D)",
+      "[QLOO] /search resolved entity \"Tokyo\" -> Tokyo (1EB0550F-0F82-43A2-B501-4D33B5488FD1)",
+      "[QLOO] /search resolved entity \"London\" -> London (4F18635D-75D6-43EC-B8B9-8DFAEB8C5A29)",
+      "[QLOO] /search resolved entity \"Japan\" -> Japan (2FCE69ED-A621-40D6-9A4F-529E2F4B240E)",
+      "[QLOO] /search resolved entity \"Mid-century Brutalist Architecture\" -> Museum of Folk Life and Architecture of Middle Naddnipryanshyna (8AD78C8E-7CAE-4BEA-86CF-38855659B041)",
+      "[QLOO] /search resolved entity \"Third-wave Coffee Roasters\" -> Third Wave Coffee Roasters (CF96C2B7-DA58-4AC6-8BD6-93F6CF11D51B)",
+      "[QLOO] /search resolved entity \"Heritage Menswear Boutiques\" -> 1881 Heritage (4A297BB4-4E41-4271-B79C-BE515414F6D9)",
+      "[QLOO] /search resolved entity \"Independent Design Bookshops\" -> the Design Museum (ACB1D32F-D9DA-455B-A962-14A6D7B4ABB2)",
+      "[QLOO] /search resolved entity \"Vinyl listening bars\" -> Chatham Bars Inn (4F7C75C2-B024-481D-910F-AB6CB68778B8)",
+      "[QLOO] Multi-layered Qloo query: 14 tag signals + 10 entity affinity seeds.",
+      "[QLOO] /v2/insights place signals(tags:14, entities:10) location=New York offset=0 take=24 -> 24 candidates",
+      "[QLOO] /v2/insights place signals(tags:14, entities:10) location=New York offset=24 take=24 -> 24 candidates",
+      "[QLOO] /v2/trending unavailable for seeds; skipped",
+      "[RANK] tag-overlap top3/category -> Shop:3 Restaurant:2 Museum:3 Cafe:3 Bar:1 Theater:1 (kept 13/48 unique)",
+      "[AGENT] Synthesizing corporate strategy report and taste rationales...",
+      "[SCHEDULER] Composing time-blocked 1-day itinerary...",
+      "[EXPORT] Package ready: PDF/ICS/CSV available.",
+      "[CACHE] ✅ Result saved to disk for future instant retrieval (key: kenji::new york)."
+    ],
+    "mode": "live",
+    "cachedAt": 1793231069822
+  },
+  "kenji::rome": {
+    "tags": [
+      {
+        "name": "Vinyl listening bars",
+        "category": "Nightlife",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:setting:qloo:listening_bar",
+        "qlooTagName": "Listening Bar"
+      },
+      {
+        "name": "Brutalist architecture",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:brutalist_architecture",
+        "qlooTagName": "Brutalist Architecture"
+      },
+      {
+        "name": "Mid-Century Modern",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:mid_century_modern",
+        "qlooTagName": "Mid Century Modern"
+      },
+      {
+        "name": "Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Independent Books & Graphic Novels",
+        "category": "Books",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:genre:media:novels",
+        "qlooTagName": "Novels"
+      },
+      {
+        "name": "Scandinavian Minimalism",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:scandinavian_minimalism",
+        "qlooTagName": "Scandinavian Minimalism"
+      },
+      {
+        "name": "Artisanal Craftsmanship",
+        "category": "Other",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:artisanal_craftsmanship",
+        "qlooTagName": "Artisanal Craftsmanship"
+      },
+      {
+        "name": "Mid-Century Brutalism",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:design_inspiration:qloo:brutalism",
+        "qlooTagName": "Brutalism"
+      },
+      {
+        "name": "Independent Japanese Menswear",
+        "category": "Fashion",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Rare Architectural Publications",
+        "category": "Books",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:product_service:qloo:publications",
+        "qlooTagName": "Publications"
+      },
+      {
+        "name": "Vintage Jazz Vinyl",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interest_adjacency:qloo:vintage_jazz_vinyl",
+        "qlooTagName": "Vintage Jazz Vinyl"
+      },
+      {
+        "name": "Electronic Vinyl Records",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:product_service:qloo:vinyl_records",
+        "qlooTagName": "Vinyl Records"
+      },
+      {
+        "name": "Underground Listening Bars",
+        "category": "Nightlife",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Third-Wave Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:ingredient_focus:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Single-Origin Beans",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:single_origin_beans",
+        "qlooTagName": "Single Origin Beans"
+      },
+      {
+        "name": "Geometric Interior Design",
+        "category": "Design",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Functionalist Aesthetic",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:aesthetic_property:qloo:functionalist",
+        "qlooTagName": "Functionalist"
+      },
+      {
+        "name": "Understated Luxury",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Heritage Menswear Boutiques",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:shopping:qloo:boutiques",
+        "qlooTagName": "Boutiques"
+      },
+      {
+        "name": "Sustainable Craftsmanship",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Independent Design Bookshops",
+        "category": "Books",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:independent_design",
+        "qlooTagName": "Independent Design"
+      },
+      {
+        "name": "Low-Lit Cocktail Lounges",
+        "category": "Nightlife",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Ambient Experimental Music",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:genre:qloo:music",
+        "qlooTagName": "Music"
+      },
+      {
+        "name": "High-Fidelity Audio",
+        "category": "Music",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Minimalist Aesthetic",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Boutique Digital Agency",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Sub-Cultural DNA",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Tokyo Subculture",
+        "category": "Other",
+        "sourceContext": "social profile"
+      }
+    ],
+    "rationaleReport": "**Client Archetype**  \nKenji Tanaka is a culturally‑savvy executive who curates experiences through a lens of Tokyo‑inspired sub‑culture, high‑fidelity audio, and understated design. His decisions are driven by a blend of mid‑century modern aesthetics, artisanal craftsmanship, and a passion for niche music and fashion scenes.  \n\n**Strategic Taste Rationale**  \n- **Faro – Caffè Specialty** – Mirrors Kenji’s love for third‑wave, single‑origin coffee and geometric, Scandinavian‑minimalist interiors, offering a quiet backdrop for high‑fidelity vinyl listening.  \n- **Antico Caffè Greco** – Its historic yet refined ambience aligns with his appreciation for heritage menswear boutiques and low‑lit cocktail lounges that host ambient experimental sets.  \n- **Giolitti** – The iconic gelateria’s artisanal approach and timeless design echo his preference for sustainable craftsmanship and functionalist aesthetics.  \n- **Palazzo delle Esposizioni** – Hosts rotating exhibitions of rare architectural publications, satisfying his fascination with brutalist and mid‑century modern forms.  \n- **Scuderie del Quirinale** – The expansive, minimalist exhibition halls provide a perfect canvas for underground listening bars and high‑fidelity audio installations.  \n- **Villa Farnesina** – Its Renaissance geometry and curated art collections resonate with his interest in geometric interior design and independent design bookshops.  \n\n**Closing Recommendation**  \nIntegrate a curated itinerary that pairs specialty‑coffee stops with exclusive private viewings and low‑key vinyl sessions, reinforcing Kenji’s brand narrative of sophisticated, sub‑cultural immersion while positioning the client as a tastemaker within Rome’s elite creative circuit.",
+    "venues": [
+      {
+        "id": "BEF2EA8C-74B8-4D71-83E8-7ABC624CFB7B",
+        "name": "Faro - Caffè Specialty",
+        "category": "Cafe",
+        "affinity": 0.8013709935183309,
+        "lat": 41.9101512,
+        "lon": 12.498392599999999,
+        "address": "Via Piave, 55 00187 Roma RM Italy",
+        "image": "https://images.qloo.com/i/BEF2EA8C-74B8-4D71-83E8-7ABC624CFB7B-0W4bPz-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Faro - Caffè Specialty bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "C2A4C5D3-6140-4D2C-B6D7-B8E4DA95E776",
+        "name": "Antico Caffè Greco",
+        "category": "Cafe",
+        "affinity": 0.8101514333202702,
+        "lat": 41.9056208,
+        "lon": 12.4815533,
+        "address": "Via dei Condotti, 86 00187 Roma RM Italy",
+        "image": "https://images.qloo.com/i/C2A4C5D3-6140-4D2C-B6D7-B8E4DA95E776-4fqaTR-420x-outside.jpg",
+        "rationale": "Its historic yet refined ambience aligns with his appreciation for heritage menswear boutiques and low‑lit cocktail lounges that host ambient experimental sets."
+      },
+      {
+        "id": "22EDB6CF-B986-40B7-B229-D6E2490A8F61",
+        "name": "Giolitti",
+        "category": "Shop",
+        "affinity": 0.8039904446101949,
+        "lat": 41.9010245,
+        "lon": 12.4772026,
+        "address": "Via degli Uffici del Vicario, 40 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/22EDB6CF-B986-40B7-B229-D6E2490A8F61-2oCkzN-420x-outside.jpg",
+        "rationale": "The iconic gelateria’s artisanal approach and timeless design echo his preference for sustainable craftsmanship and functionalist aesthetics."
+      },
+      {
+        "id": "B7459FBF-D75D-4801-9775-CC1BD7FC3439",
+        "name": "Palazzo delle Esposizioni",
+        "category": "Museum",
+        "affinity": 0.8015554496469748,
+        "lat": 41.8994596,
+        "lon": 12.490146399999999,
+        "address": "Via Nazionale, 194 00184 Roma RM Italy",
+        "image": "https://images.qloo.com/i/B7459FBF-D75D-4801-9775-CC1BD7FC3439-2XHfOy-420x-outside.jpg",
+        "rationale": "Hosts rotating exhibitions of rare architectural publications, satisfying his fascination with brutalist and mid‑century modern forms."
+      },
+      {
+        "id": "789D375F-95C1-4CF8-A12B-EFDAECE77B73",
+        "name": "Scuderie del Quirinale",
+        "category": "Museum",
+        "affinity": 0.8007989653544407,
+        "lat": 41.8986595,
+        "lon": 12.486116299999999,
+        "address": "V. Ventiquattro Maggio, 16 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/789D375F-95C1-4CF8-A12B-EFDAECE77B73-2j1T3Y-420x-outside.jpg",
+        "rationale": "The expansive, minimalist exhibition halls provide a perfect canvas for underground listening bars and high‑fidelity audio installations."
+      },
+      {
+        "id": "DE68A280-949C-45AA-BF57-08B250DB701B",
+        "name": "Villa Farnesina",
+        "category": "Museum",
+        "affinity": 0.8027314741558274,
+        "lat": 41.8936309,
+        "lon": 12.4673112,
+        "address": "Via della Lungara, 230 00165 Roma RM Italy",
+        "image": "https://images.qloo.com/i/DE68A280-949C-45AA-BF57-08B250DB701B-2ZHX7F-420x-outside.jpg",
+        "rationale": "Its Renaissance geometry and curated art collections resonate with his interest in geometric interior design and independent design bookshops."
+      },
+      {
+        "id": "95E0ECD8-A461-45E1-9716-14F5B8E54A9B",
+        "name": "Piazza della Rotonda",
+        "category": "Shop",
+        "affinity": 0.801232665012134,
+        "lat": 41.8993441,
+        "lon": 12.4770457,
+        "address": "00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/95E0ECD8-A461-45E1-9716-14F5B8E54A9B-4sEXGx-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Piazza della Rotonda bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "04F88E4F-5B79-4984-9E87-0AE69B79A075",
+        "name": "Gelateria S.M.Maggiore",
+        "category": "Shop",
+        "affinity": 0.8090696943477038,
+        "lat": 41.8971856,
+        "lon": 12.4955714,
+        "address": "Via Cavour, 93a/95 00184 Roma RM Italy",
+        "image": "https://images.qloo.com/i/04F88E4F-5B79-4984-9E87-0AE69B79A075-0Ed3EA-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Gelateria S.M.Maggiore bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "AE007C84-C969-4F14-91C8-6831D244AE55",
+        "name": "Trinità dei Monti",
+        "category": "Bar",
+        "affinity": 0.7996286834642833,
+        "lat": 41.9062415,
+        "lon": 12.4833875,
+        "address": "Piazza della Trinità dei Monti, 3 00187 Roma RM Italy",
+        "image": "https://images.qloo.com/i/AE007C84-C969-4F14-91C8-6831D244AE55-4coZCk-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Trinità dei Monti bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "808B179E-E054-4569-9DD2-26278E0A677D",
+        "name": "Ristorante Dillà",
+        "category": "Restaurant",
+        "affinity": 0.7999146262459045,
+        "lat": 41.906908,
+        "lon": 12.4802477,
+        "address": "V. Màrio de' Fiori, 41 00187 Roma RM Italy",
+        "image": "https://images.qloo.com/i/808B179E-E054-4569-9DD2-26278E0A677D-1zKbkG-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Ristorante Dillà bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "BF1DD296-438A-42AF-AA99-C8B829DC740C",
+        "name": "Piperno Restaurant",
+        "category": "Restaurant",
+        "affinity": 0.8009971652166383,
+        "lat": 41.8923659,
+        "lon": 12.4760379,
+        "address": "Via Monte dè Cenci, 9 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/BF1DD296-438A-42AF-AA99-C8B829DC740C-2pVtpy-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Piperno Restaurant bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "C2EA6E30-EC00-4127-B645-8FA8FB26E178",
+        "name": "La Pesceria Barberini",
+        "category": "Bar",
+        "affinity": 0.8012819683545869,
+        "lat": 41.904498,
+        "lon": 12.4902999,
+        "address": "Via di S. Nicola da Tolentino, 23 00187 Roma RM Italy",
+        "image": "https://images.qloo.com/i/C2EA6E30-EC00-4127-B645-8FA8FB26E178-07EUlj-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: La Pesceria Barberini bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "156472ED-0CC7-44BB-A789-825A90D83C02",
+        "name": "Parione",
+        "category": "Venue",
+        "affinity": 0.7999294803367123,
+        "lat": 41.897605999999996,
+        "lon": 12.471737,
+        "address": "Via dei Leutari, 21 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/156472ED-0CC7-44BB-A789-825A90D83C02-17IkJe-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Parione bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "E54B671B-EE6D-49A9-9F2C-C57906DDFDAE",
+        "name": "Arch of Constantine",
+        "category": "Bar",
+        "affinity": 0.8061063756328842,
+        "lat": 41.8898113,
+        "lon": 12.4906782,
+        "address": "P.za del Colosseo 00184 Roma RM Italy",
+        "image": "https://images.qloo.com/i/E54B671B-EE6D-49A9-9F2C-C57906DDFDAE-1O70tt-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Arch of Constantine bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "8632D9A5-F8A4-418F-B807-00C9819842F5",
+        "name": "Tiber Island",
+        "category": "Cafe",
+        "affinity": 0.8002788882267795,
+        "lat": 41.8904524,
+        "lon": 12.4777395,
+        "address": "Rome, Metropolitan City of Rome Capital Italy",
+        "image": "https://images.qloo.com/i/8632D9A5-F8A4-418F-B807-00C9819842F5-0Urlf5-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Tiber Island bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "35DD69FF-8526-4AB2-B17E-AFCF0474D65D",
+        "name": "Arch of Titus",
+        "category": "Venue",
+        "affinity": 0.8114700310523041,
+        "lat": 41.8907044,
+        "lon": 12.4885842,
+        "address": "Via Sacra 00186 Roma RM Italy",
+        "image": "https://images.qloo.com/i/35DD69FF-8526-4AB2-B17E-AFCF0474D65D-3V6w0B-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Arch of Titus bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "8AC440FD-88F4-4CCF-9282-CBD66BD1C9FB",
+        "name": "Tempietto del Bramante",
+        "category": "Venue",
+        "affinity": 0.803414660460163,
+        "lat": 41.8887243,
+        "lon": 12.4664133,
+        "address": "Piazza di S. Pietro in Montorio, 2 00153 Roma RM Italy",
+        "image": "https://images.qloo.com/i/8AC440FD-88F4-4CCF-9282-CBD66BD1C9FB-0SIUOx-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Tempietto del Bramante bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      },
+      {
+        "id": "0425D143-7AAE-4891-9CF1-0C9374DCCD80",
+        "name": "Il Ristorante Rinaldi Al Quirinale",
+        "category": "Restaurant",
+        "affinity": 0.8009167791270914,
+        "lat": 41.8988338,
+        "lon": 12.488993299999999,
+        "address": "Via Parma, 11/A 00184 Roma RM Italy",
+        "image": "https://images.qloo.com/i/0425D143-7AAE-4891-9CF1-0C9374DCCD80-39Knti-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Il Ristorante Rinaldi Al Quirinale bridges the client's Vinyl listening bars & Brutalist architecture preferences with Rome's local scene."
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "09:00",
+        "title": "Faro - Caffè Specialty",
+        "venueId": "BEF2EA8C-74B8-4D71-83E8-7ABC624CFB7B",
+        "notes": "Cafe"
+      },
+      {
+        "time": "12:30",
+        "title": "Antico Caffè Greco",
+        "venueId": "C2A4C5D3-6140-4D2C-B6D7-B8E4DA95E776",
+        "notes": "Cafe"
+      },
+      {
+        "time": "16:00",
+        "title": "Giolitti",
+        "venueId": "22EDB6CF-B986-40B7-B229-D6E2490A8F61",
+        "notes": "Shop"
+      },
+      {
+        "time": "19:30",
+        "title": "Palazzo delle Esposizioni",
+        "venueId": "B7459FBF-D75D-4801-9775-CC1BD7FC3439",
+        "notes": "Museum"
+      }
+    ],
+    "logs": [
+      "[INTAKE] Received profile for Kenji Tanaka.",
+      "[OSINT] No URL provided; using supplied social text dump.",
+      "[LLM AGENT 1] Scanning text stream for micro-cultural preferences and entity anchors...",
+      "[LLM] Extracting structured taste parameters and specific brand/artist entities...",
+      "[LLM AGENT 1] Diligently isolated 28 taste variables: Vinyl listening bars, Brutalist architecture, Mid-Century Modern, Specialty Coffee, Independent Books & Graphic Novels, Scandinavian Minimalism, Artisanal Craftsmanship, Mid-Century Brutalism, Independent Japanese Menswear, Rare Architectural Publications, Vintage Jazz Vinyl, Electronic Vinyl Records, Underground Listening Bars, Third-Wave Specialty Coffee, Single-Origin Beans, Geometric Interior Design, Functionalist Aesthetic, Understated Luxury, Heritage Menswear Boutiques, Sustainable Craftsmanship, Independent Design Bookshops, Low-Lit Cocktail Lounges, Ambient Experimental Music, High-Fidelity Audio, Minimalist Aesthetic, Boutique Digital Agency, Sub-Cultural DNA, Tokyo Subculture",
+      "[LLM AGENT 1] Isolated 11 specific cultural entity anchors: Daikanyama, Shibuya, Tokyo, London, Mid-Century Brutalist Architecture, Independent Japanese Menswear Labels, Rare Architectural Publications, Third-Wave Specialty Coffee Roasters, Heritage Menswear Boutiques, Independent Design Bookshops, Low-Lit Cocktail Lounges",
+      "[QLOO] Resolving 24 taste indicators to Qloo tag URNs...",
+      "[QLOO TAG MAP] Vinyl listening bars -> Listening Bar (urn:tag:setting:qloo:listening_bar)",
+      "[QLOO TAG MAP] Brutalist architecture -> Brutalist Architecture (urn:tag:decor:qloo:brutalist_architecture)",
+      "[QLOO TAG MAP] Mid-Century Modern -> Mid Century Modern (urn:tag:decor:qloo:mid_century_modern)",
+      "[QLOO TAG MAP] Specialty Coffee -> Specialty Coffee (urn:tag:interests:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Independent Books & Graphic Novels -> Novels (urn:tag:genre:media:novels)",
+      "[QLOO TAG MAP] Scandinavian Minimalism -> Scandinavian Minimalism (urn:tag:decor:qloo:scandinavian_minimalism)",
+      "[QLOO TAG MAP] Artisanal Craftsmanship -> Artisanal Craftsmanship (urn:tag:interests:qloo:artisanal_craftsmanship)",
+      "[QLOO TAG MAP] Mid-Century Brutalism -> Brutalism (urn:tag:design_inspiration:qloo:brutalism)",
+      "[QLOO TAG MAP] Independent Japanese Menswear -> no confident Qloo tag",
+      "[QLOO TAG MAP] Rare Architectural Publications -> Publications (urn:tag:product_service:qloo:publications)",
+      "[QLOO TAG MAP] Vintage Jazz Vinyl -> Vintage Jazz Vinyl (urn:tag:interest_adjacency:qloo:vintage_jazz_vinyl)",
+      "[QLOO TAG MAP] Electronic Vinyl Records -> Vinyl Records (urn:tag:product_service:qloo:vinyl_records)",
+      "[QLOO TAG MAP] Underground Listening Bars -> no confident Qloo tag",
+      "[QLOO TAG MAP] Third-Wave Specialty Coffee -> Specialty Coffee (urn:tag:ingredient_focus:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Single-Origin Beans -> Single Origin Beans (urn:tag:interests:qloo:single_origin_beans)",
+      "[QLOO TAG MAP] Geometric Interior Design -> no confident Qloo tag",
+      "[QLOO TAG MAP] Functionalist Aesthetic -> Functionalist (urn:tag:aesthetic_property:qloo:functionalist)",
+      "[QLOO TAG MAP] Understated Luxury -> no confident Qloo tag",
+      "[QLOO TAG MAP] Heritage Menswear Boutiques -> Boutiques (urn:tag:shopping:qloo:boutiques)",
+      "[QLOO TAG MAP] Sustainable Craftsmanship -> no confident Qloo tag",
+      "[QLOO TAG MAP] Independent Design Bookshops -> Independent Design (urn:tag:interests:qloo:independent_design)",
+      "[QLOO TAG MAP] Low-Lit Cocktail Lounges -> no confident Qloo tag",
+      "[QLOO TAG MAP] Ambient Experimental Music -> Music (urn:tag:genre:qloo:music)",
+      "[QLOO TAG MAP] High-Fidelity Audio -> no confident Qloo tag",
+      "[QLOO TAG MAP] Minimalist Aesthetic -> no confident Qloo tag",
+      "[QLOO TAG MAP] Boutique Digital Agency -> no confident Qloo tag",
+      "[QLOO TAG MAP] Sub-Cultural DNA -> no confident Qloo tag",
+      "[QLOO TAG MAP] Tokyo Subculture -> no confident Qloo tag",
+      "[QLOO] /search resolved entity \"Daikanyama\" -> Daikanyama (E9C466D1-E948-4438-8262-44C30CBEA418)",
+      "[QLOO] /search resolved entity \"Shibuya\" -> 渋谷 (58125D60-1214-4CFC-BFB0-999ECB5F303D)",
+      "[QLOO] /search resolved entity \"Tokyo\" -> Tokyo (1EB0550F-0F82-43A2-B501-4D33B5488FD1)",
+      "[QLOO] /search resolved entity \"London\" -> London (4F18635D-75D6-43EC-B8B9-8DFAEB8C5A29)",
+      "[QLOO] /search resolved entity \"Mid-Century Brutalist Architecture\" -> Museum of Folk Life and Architecture of Middle Naddnipryanshyna (8AD78C8E-7CAE-4BEA-86CF-38855659B041)",
+      "[QLOO] /search resolved entity \"Independent Japanese Menswear Labels\" -> Morikami Museum and Japanese Gardens (9815804B-B4C2-4B82-9C19-B37A10AB8A65)",
+      "[QLOO] /search resolved entity \"Rare Architectural Publications\" -> Architectural Digest (4EF8A4F4-894A-480E-A270-51C1907269AE)",
+      "[QLOO] /search resolved entity \"Third-Wave Specialty Coffee Roasters\" -> The Coffee Lab - Specialty Coffee Roasters (851E4B94-D3F2-425F-94FD-C21AB1F56FC1)",
+      "[QLOO] /search resolved entity \"Heritage Menswear Boutiques\" -> 1881 Heritage (4A297BB4-4E41-4271-B79C-BE515414F6D9)",
+      "[QLOO] /search resolved entity \"Independent Design Bookshops\" -> the Design Museum (ACB1D32F-D9DA-455B-A962-14A6D7B4ABB2)",
+      "[QLOO] Multi-layered Qloo query: 17 tag signals + 10 entity affinity seeds.",
+      "[QLOO] /v2/insights place signals(tags:17, entities:10) location=Rome offset=0 take=24 -> 24 candidates",
+      "[QLOO] /v2/insights place signals(tags:17, entities:10) location=Rome offset=24 take=24 -> 24 candidates",
+      "[QLOO] /v2/trending unavailable for seeds; skipped",
+      "[RANK] tag-overlap top3/category -> Cafe:3 Shop:3 Museum:3 Bar:3 Restaurant:3 Venue:3 (kept 18/48 unique)",
+      "[AGENT] Synthesizing corporate strategy report and taste rationales...",
+      "[SCHEDULER] Composing time-blocked 1-day itinerary...",
+      "[EXPORT] Package ready: PDF/ICS/CSV available.",
+      "[CACHE] ✅ Result saved to disk for future instant retrieval (key: kenji::rome)."
+    ],
+    "mode": "live",
+    "cachedAt": 1793231103363
+  },
+  "fiona::paris": {
+    "tags": [
+      {
+        "name": "Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Sustainable Luxury Fashion",
+        "category": "Fashion",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:lifestyle:qloo:sustainable_luxury",
+        "qlooTagName": "Sustainable Luxury"
+      },
+      {
+        "name": "Lagom Lifestyle",
+        "category": "Other",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:cuisine:qloo:lifestyle_store",
+        "qlooTagName": "Lifestyle Store"
+      },
+      {
+        "name": "Sustainable Luxury",
+        "category": "Other",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:lifestyle:qloo:sustainable_luxury",
+        "qlooTagName": "Sustainable Luxury"
+      },
+      {
+        "name": "Nordic Interior Design",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:nordic_interior_design",
+        "qlooTagName": "Nordic Interior Design"
+      },
+      {
+        "name": "Eco-conscious Fashion",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:lifestyle:qloo:eco_conscious_fashion",
+        "qlooTagName": "Eco-Conscious Fashion"
+      },
+      {
+        "name": "Fair-Trade Coffee",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:menu_highlight:qloo:fair_trade_coffee",
+        "qlooTagName": "Fair Trade Coffee"
+      },
+      {
+        "name": "Light-Roast Single-Origin",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:ingredient_focus:qloo:single_origin",
+        "qlooTagName": "Single Origin"
+      },
+      {
+        "name": "Minimalist Art Galleries",
+        "category": "Art",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:amenity:qloo:art_galleries",
+        "qlooTagName": "Art Galleries"
+      },
+      {
+        "name": "Acoustic Neo-Classical Music",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:genre:qloo:music",
+        "qlooTagName": "Music"
+      },
+      {
+        "name": "Farm-to-Table Dining",
+        "category": "Dining",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Nordic Gastronomy",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:gastronomy",
+        "qlooTagName": "Gastronomy"
+      },
+      {
+        "name": "High-Design Boutique Hotels",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:genre:place:hotel",
+        "qlooTagName": "Hotel"
+      },
+      {
+        "name": "Independent Art Bookstores",
+        "category": "Books",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Hidden Culinary Spaces",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:category:qloo:space",
+        "qlooTagName": "Space"
+      },
+      {
+        "name": "Architectural Design Fusion",
+        "category": "Design",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Quiet Sophistication",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Modern Scandinavian Leadership",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Organic Materials",
+        "category": "Design",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Clean Geometric Forms",
+        "category": "Design",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Environmental Mindfulness",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "High-Concept Design",
+        "category": "Design",
+        "sourceContext": "social profile"
+      }
+    ],
+    "rationaleReport": "We need to produce a corporate strategy report max 220 words. Include:\n\n1. 2-sentence client archetype profile.\n2. For each venue (six venues) a \"Strategic Taste Rationale\" one sentence each, bold the venue name, linking to hometown preferences.\n3. Closing recommendation.\n\nWe must keep within 220 words total. Let's count approximate words.\n\nFirst, client archetype profile: 2 sentences, maybe ~30 words.\n\nThen each venue rationale: 6 sentences, each maybe ~20 words = 120 words.\n\nClosing recommendation: maybe 30 words.\n\nTotal ~180 words, okay.\n\nNeed to mention linking to hometown preferences (Fiona's hometown? Not given. But we can assume she is from Sweden (Nordic). So link to Nordic preferences like sustainable luxury, lagom, etc.\n\nLet's craft.\n\nWord count: Let's draft.\n\nClient archetype profile: \"Fiona Lindström is a senior executive from Stockholm who embodies the Lagom ethos, seeking refined experiences that balance sustainability with understated luxury. Her aesthetic fuses Nordic minimalism with eco‑conscious sophistication, favoring specialty coffee, sustainable fashion, and high‑design environments.\"\n\nNow each venue rationale:\n\n- **Le Chalet des Îles**: This boutique hotel’s riverside serenity and use of reclaimed wood echo the clean geometric forms and organic materials cherished in Swedish design, while its curated fair‑trade coffee service satisfies her light‑roast, single‑origin palate.\n\n- **Marcelle**: The museum’s minimalist exhibition spaces and focus on sustainable architectural fusion align with her preference for quiet sophistication and Nordic interior sensibilities, offering a cultural backdrop that complements her eco‑mindful leadership style.\n\n- **Umami Matcha Café**: The shop’s dedication to farm‑to‑table, organic matcha and its minimalist aesthetic mirror her Nordic gastronomy interests and commitment to environmental mindfulness, providing a tranquil spot for acoustic neo‑classical listening.\n\n- **Matamata Coffee**: This café’s emphasis on fair‑trade, light‑roast single‑origin beans and sleek Scandinavian‑inspired interior directly resonates with her specialty coffee and lagom lifestyle values.\n\n- **Popelini Marais Debelleyme**: The boutique’s sustainable luxury fashion collection, featuring clean lines and organic fabrics, reflects her eco‑conscious fashion taste and love for high‑concept design.\n\n- **Léon**: This hotel’s modern Scandinavian leadership vibe, with quiet, sophisticated rooms crafted from organic materials, offers a perfect base that integrates her desire for sustainable luxury and minimalist art immersion.\n\nClosing recommendation: Recommend a curated itinerary that begins with **Le Chalet des Îles** for accommodation, followed by cultural immersion at **Marcelle**, coffee experiences at **Matamata Coffee** and **Umami Matcha Café**, fashion exploration at **Popelini Marais Debelleyme**, and concluding with a stay at **Léon** to reinforce her sustainable luxury narrative throughout the Paris visit.\n\nNow count words.\n\nLet's count roughly.\n\nFirst paragraph: \"Fiona Lindström is a senior executive from Stockholm who embodies the Lagom ethos, seeking refined experiences that balance sustainability with understated luxury.\" (23) \"Her aesthetic fuses Nordic minimalism with eco‑conscious sophistication, favoring specialty coffee, sustainable fashion, and high‑design environments.\" (22) => 45.\n\nVenue rationales:\n\n**Le Chalet des Îles** sentence: \"This boutique hotel’s riverside serenity and use of reclaimed wood echo the clean geometric forms and organic materials cherished in Swedish design, while its curated fair‑trade coffee service satisfies her light‑roast, single‑origin palate.\" Count: This(1) boutique2 hotel’s3 riverside4 serenity5 and6 use7 of8 reclaimed9 wood10 echo11 the12 clean13 geometric14 forms15 and16 organic17 materials18 cherished19 in20 Swedish21 design,22 while23 its24 curated25 fair‑trade26 coffee27 service28 satisfies29 her30 light‑roast,31 single‑origin32 palate33. => 33 words.\n\n**Marcelle**: \"The museum’s minimalist exhibition spaces and focus on sustainable architectural fusion align with her preference for quiet sophistication and Nordic interior sensibilities, offering a cultural backdrop that complements her eco‑mindful leadership style.\" Count: The1 museum’s2 minimalist3 exhibition4 spaces5 and6 focus7 on8 sustainable9 architectural10 fusion11 align12 with13 her14 preference15 for16 quiet17 sophistication18 and19 Nordic20 interior21 sensibilities,22 offering23 a24 cultural25 backdrop26 that27 complements28 her29 eco‑mindful30 leadership31 style32. => 32.\n\n**Umami Matcha Café**: \"The shop’s dedication to farm‑to‑table, organic matcha and its minimalist aesthetic mirror her Nordic gastronomy interests and commitment to environmental mindfulness, providing a tranquil spot for acoustic neo‑classical listening.\" Count: The1 shop’s2 dedication3 to4 farm‑to‑table,5 organic6 matcha7 and8 its9 minimalist10 aesthetic11 mirror12 her13 Nordic14 gastronomy15 interests16 and17 commitment18 to19 environmental20 mindfulness,21 providing22 a23 tranquil24 spot25 for26 acoustic27 neo‑classical28 listening29. => 29.\n\n**Matamata Coffee**: \"This café’s emphasis on fair‑trade, light‑roast single‑origin beans and sleek Scandinavian‑inspired interior directly resonates with her specialty coffee and lagom lifestyle values.\" Count: This1 café’s2 emphasis3 on4 fair‑trade,5 light‑roast6 single‑origin7 beans8 and9 sleek10 Scandinavian‑inspired11 interior12 directly13 resonates14 with15 her16 specialty17 coffee18 and19 lagom20 lifestyle21 values22. => 22.\n\n**Popelini Marais Debelleyme**: \"The boutique’s sustainable luxury fashion collection, featuring clean lines and organic fabrics, reflects her eco‑conscious fashion taste and love for high‑concept design.\" Count: The1 boutique’s2 sustainable3 luxury4 fashion5 collection,6 featuring7 clean8 lines9 and10 organic11 fabrics,12 reflects13 her14 eco‑conscious15 fashion16 taste17 and18 love19 for20 high‑concept21 design22. => 22.\n\n**Léon**: \"This hotel’s modern Scandinavian leadership vibe, with quiet, sophisticated rooms crafted from organic materials, offers a perfect base that integrates her desire for sustainable luxury and minimalist art immersion.\" Count: This1 hotel’s2 modern3 Scandinavian4 leadership5 vibe,6 with7 quiet,8 sophisticated9 rooms10 crafted11 from12 organic13 materials,14 offers15 a16 perfect17 base18 that19 integrates20 her21 desire22 for23 sustainable24 luxury25 and26 minimalist27 art28 immersion29. => 29.\n\nNow closing recommendation sentence(s). Let's write one sentence maybe 30 words.\n\n\"Recommend a curated itinerary that begins with **Le Chalet des Îles** for accommodation, followed by cultural immersion at **Marcelle**, coffee experiences at **Matamata Coffee** and **Umami Matcha Café**, fashion exploration at **Popelini Marais Debelleyme**, and concluding with a stay at **Léon** to reinforce her sustainable luxury narrative throughout the Paris visit.\"\n\nCount: Recommend1 a2 curated3 itinerary4 that5 begins6 with7 **Le8 Chalet9 des10 Îles**11 for12 accommodation,13 followed14 by15 cultural16 immersion17 at18 **Marcelle**,19 coffee20 experiences21 at22 **Matamata23 Coffee**24 and25 **Umami26 Matcha27 Café**,28 fashion29 exploration30 at31 **Popelini32 Marais33 Debelleyme**,34 and35 concluding36 with37 a38 stay39 at40 **Léon**41 to42 reinforce43 her44 sustainable45 luxury46 narrative47 throughout48 the49 Paris50 visit51. => 51 words.\n\nNow total words: 45 + 33 + 32 + 29 + 22 + 22 + 29 + 51 = 263. That's over 220. Need to reduce.\n\nWe need max 220 words. Need to cut down.\n\nWe can shorten the rationales and closing recommendation.\n\nGoal: total <=220.\n\nWe have 8 sections: profile (45), 6 rationales (33+32+29+22+22+29=167), closing (51). Total 45+167+51=263.\n\nWe need to cut about 43 words.\n\nWe can shorten profile to maybe 20 words. Reduce rationales to ~15 each (total 90). Closing to ~30. Let's aim.\n\nProfile: \"Fiona Lindström, a Stockholm senior executive, lives the Lagom ethos, seeking sustainable luxury that blends Nordic minimalism with eco‑conscious sophistication.\" That's one sentence? Need two sentences. Let's do: \"Fiona Lindström, a Stockholm senior executive, lives the Lagom ethos, seeking sustainable luxury that blends Nordic minimalism with eco‑conscious sophistication. She favors specialty coffee, sustainable fashion, and high‑design spaces.\" Count words: Fiona1 Lindström,2 a3 Stockholm4 senior5 executive,6 lives7 the8 Lagom9 ethos,10 seeking11 sustainable12 luxury13 that14 blends15 Nordic16 minimalism17 with18 eco‑conscious19 sophistication. She20 favors21 specialty22 coffee,23 sustainable24 fashion,25 and26 high‑design27 spaces28. => 28 words.\n\nNow rationales: aim ~15 words each.\n\n**Le Chalet des Îles**: \"Riverside serenity, reclaimed wood, and fair‑trade light‑roast coffee echo her Swedish love for clean geometry and organic materials.\" Count: Riverside1 serenity,2 reclaimed3 wood,4 and5 fair‑trade6 light‑roast7 coffee8 echo9 her10 Swedish11 love12 for13 clean14 geometry15 and16 organic17 materials18. => 18 words, okay.\n\n**Marcelle**: \"Minimalist galleries and sustainable architecture mirror her quiet sophistication and Nordic interior sensibility.\" Count: Minimalist1 galleries2 and3 sustainable4 architecture5 mirror6 her7 quiet8 sophistication9 and10 Nordic11 interior12 sensibility13. => 13.\n\n**Umami Matcha Café**: \"Organic matcha, farm‑to‑table ethos, and minimalist décor align with her Nordic gastronomy and eco‑mindful taste.\" Count: Organic1 matcha,2 farm‑to‑table3 ethos,4 and5 minimalist6 décor7 align8 with9 her10 Nordic11 gastronomy12 and13 eco‑mindful14 taste15. => 15.\n\n**Matamata Coffee**: \"Fair‑trade, light‑roast single‑origin beans and sleek Scandinavian design satisfy her specialty coffee and lagom preferences.\" Count: Fair‑trade,1 light‑roast2 single‑origin3 beans4 and5 sleek6 Scandinavian7 design8 satisfy9 her10 specialty11 coffee12 and13 lagom14 preferences15. => 15.\n\n**Popelini Marais Debelleyme**: \"Sustainable luxury fashion with clean lines and organic fabrics reflects her eco‑conscious style and high‑concept design taste.\" Count: Sustainable1 luxury2 fashion3 with4 clean5 lines6 and7 organic8 fabrics9 reflects10 her11 eco‑conscious12 style13 and14 high‑concept15 design16 taste17. => 17.\n\n**Léon**: \"Quiet, sophisticated rooms of organic material embody her modern Scandinavian leadership vibe and sustainable luxury expectations.\" Count: Quiet,1 sophisticated2 rooms3 of4 organic5 material6 embody7 her8 modern9 Scandinavian10 leadership11 vibe12 and13 sustainable14 luxury15 expectations16. => 16.\n\nNow sum rationales: 18+13+15+15+17+16 = 94.\n\nProfile 28 + rationales 94 = 122.\n\nClosing recommendation: need ~90 words max to stay under 220. Let's craft ~70 words.\n\n\"Recommend a seamless itinerary: stay at **Le Chalet des Îles** for its eco‑luxury base; explore **Marcelle** for cultural depth; enjoy coffee at",
+    "venues": [
+      {
+        "id": "605D9ED0-6521-4797-95AE-9F81C913D31A",
+        "name": "Le Chalet des Îles",
+        "category": "Hotel",
+        "affinity": 0.7678949651308394,
+        "lat": 48.863479,
+        "lon": 2.2602401,
+        "address": "Bois de Boulogne Embarcadère du Chalet des Îles, Porte de la Muette Ceinture du lac inférieur du 75016 Paris France",
+        "image": "https://images.qloo.com/i/605D9ED0-6521-4797-95AE-9F81C913D31A-1gwQOe-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Le Chalet des Îles bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "3EE9698A-7FF4-41BB-A278-D4AF50F166E1",
+        "name": "Marcelle",
+        "category": "Museum",
+        "affinity": 0.769438976644735,
+        "lat": 48.857721,
+        "lon": 2.3064913,
+        "address": "159 Rue de Grenelle 75007 Paris France",
+        "image": "https://images.qloo.com/i/3EE9698A-7FF4-41BB-A278-D4AF50F166E1-3meIhe-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Marcelle bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "EE2C4A72-17C3-4641-A1FB-50DEA89626AF",
+        "name": "Umami Matcha Café",
+        "category": "Shop",
+        "affinity": 0.7683425346214883,
+        "lat": 48.8665227,
+        "lon": 2.3635854999999997,
+        "address": "22 Rue Béranger 75003 Paris France",
+        "image": "https://images.qloo.com/i/EE2C4A72-17C3-4641-A1FB-50DEA89626AF-1s89rD-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Umami Matcha Café bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "B780E358-2BC7-429C-8925-EF0F399057DF",
+        "name": "Matamata Coffee",
+        "category": "Cafe",
+        "affinity": 0.7732045632501318,
+        "lat": 48.866107,
+        "lon": 2.3441172,
+        "address": "58 Rue d'Argout 75002 Paris France",
+        "image": "https://images.qloo.com/i/B780E358-2BC7-429C-8925-EF0F399057DF-0RVUmx-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Matamata Coffee bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "18EDE652-E51C-42A7-AF54-6564EEF0C4A6",
+        "name": "Popelini Marais Debelleyme",
+        "category": "Shop",
+        "affinity": 0.7695171795345556,
+        "lat": 48.8624423,
+        "lon": 2.3638084,
+        "address": "29 Rue Debelleyme 75003 Paris France",
+        "image": "https://images.qloo.com/i/18EDE652-E51C-42A7-AF54-6564EEF0C4A6-4hyW1z-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Popelini Marais Debelleyme bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "FFAFBB77-44D2-41E6-ABDC-1C649B5056B0",
+        "name": "Léon",
+        "category": "Hotel",
+        "affinity": 0.7685876151905637,
+        "lat": 48.842893,
+        "lon": 2.3259848,
+        "address": "82 BIS Bd du Montparnasse 75014 Paris France",
+        "image": "https://images.qloo.com/i/FFAFBB77-44D2-41E6-ABDC-1C649B5056B0-2Ym4FR-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Léon bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "002E3EAF-340F-41D9-995A-130F3EF5D7F3",
+        "name": "Le Grenier de Notre-Dame",
+        "category": "Hotel",
+        "affinity": 0.7719324897968274,
+        "lat": 48.8520209,
+        "lon": 2.3485062,
+        "address": "18 Rue de la Bûcherie 75005 Paris France",
+        "image": "https://images.qloo.com/i/002E3EAF-340F-41D9-995A-130F3EF5D7F3-435f4f-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Le Grenier de Notre-Dame bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "0817F821-3481-4C83-8B5E-275B4D958686",
+        "name": "Auteuil Brasserie",
+        "category": "Restaurant",
+        "affinity": 0.7671112114013332,
+        "lat": 48.848332,
+        "lon": 2.2598689999999997,
+        "address": "78 Rue d'Auteuil 75016 Paris France",
+        "image": "https://images.qloo.com/i/0817F821-3481-4C83-8B5E-275B4D958686-0WvA09-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Auteuil Brasserie bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "019A411D-0845-4469-A057-D0281FBF3B17",
+        "name": "Le Square - Restaurant Paparazzi",
+        "category": "Restaurant",
+        "affinity": 0.7719855147401596,
+        "lat": 48.871720499999995,
+        "lon": 2.3289534,
+        "address": "6 Sq. de l'Opéra-Louis Jouvet 75009 Paris France",
+        "image": "https://images.qloo.com/i/019A411D-0845-4469-A057-D0281FBF3B17-4eJXQf-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Le Square - Restaurant Paparazzi bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "55AA185E-DB16-4D0A-876B-67AE2F7BEE81",
+        "name": "Le Pain Quotidien",
+        "category": "Museum",
+        "affinity": 0.7696111305896389,
+        "lat": 48.8663794,
+        "lon": 2.3316971,
+        "address": "18 Pl. du Marché Saint-Honoré 75001 Paris France",
+        "image": "https://images.qloo.com/i/55AA185E-DB16-4D0A-876B-67AE2F7BEE81-04qOr5-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Le Pain Quotidien bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "261DA473-A0CA-49D6-AC44-F4DADB047A7C",
+        "name": "Romeo - Bar & Grill",
+        "category": "Bar",
+        "affinity": 0.7670562499172694,
+        "lat": 48.870103699999994,
+        "lon": 2.2850208999999997,
+        "address": "6 Pl. Victor Hugo 75016 Paris France",
+        "image": "https://images.qloo.com/i/261DA473-A0CA-49D6-AC44-F4DADB047A7C-0mRqtS-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Romeo - Bar & Grill bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "81E47455-241B-4F2A-8CA7-C0DB7D4CA133",
+        "name": "Le Loir dans La Théière",
+        "category": "Museum",
+        "affinity": 0.7689388623364172,
+        "lat": 48.8562272,
+        "lon": 2.3610812,
+        "address": "3 Rue des Rosiers 75004 Paris France",
+        "image": "https://images.qloo.com/i/81E47455-241B-4F2A-8CA7-C0DB7D4CA133-2BtZIQ-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Le Loir dans La Théière bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "2B1CA119-15A2-44D0-9AB8-A43081B17FBC",
+        "name": "Zo",
+        "category": "Restaurant",
+        "affinity": 0.772312769291617,
+        "lat": 48.871122899999996,
+        "lon": 2.3181921,
+        "address": "13 Rue Montalivet 75008 Paris France",
+        "image": "https://images.qloo.com/i/2B1CA119-15A2-44D0-9AB8-A43081B17FBC-1CXSjc-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Zo bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      },
+      {
+        "id": "17DF5F48-FCF2-4644-9369-8FAD7CC7BFFD",
+        "name": "Sacha Finkelsztajn - La Boutique Jaune",
+        "category": "Shop",
+        "affinity": 0.7744091638780836,
+        "lat": 48.85762,
+        "lon": 2.3583928,
+        "address": "27 Rue des Rosiers 75004 Paris France",
+        "image": "https://images.qloo.com/i/17DF5F48-FCF2-4644-9369-8FAD7CC7BFFD-2455k3-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Sacha Finkelsztajn - La Boutique Jaune bridges the client's Specialty Coffee & Sustainable Luxury Fashion preferences with Paris's local scene."
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "09:00",
+        "title": "Le Chalet des Îles",
+        "venueId": "605D9ED0-6521-4797-95AE-9F81C913D31A",
+        "notes": "Hotel"
+      },
+      {
+        "time": "12:30",
+        "title": "Marcelle",
+        "venueId": "3EE9698A-7FF4-41BB-A278-D4AF50F166E1",
+        "notes": "Museum"
+      },
+      {
+        "time": "16:00",
+        "title": "Umami Matcha Café",
+        "venueId": "EE2C4A72-17C3-4641-A1FB-50DEA89626AF",
+        "notes": "Shop"
+      },
+      {
+        "time": "19:30",
+        "title": "Matamata Coffee",
+        "venueId": "B780E358-2BC7-429C-8925-EF0F399057DF",
+        "notes": "Cafe"
+      }
+    ],
+    "logs": [
+      "[INTAKE] Received profile for Fiona Lindström.",
+      "[OSINT] No URL provided; using supplied social text dump.",
+      "[LLM AGENT 1] Scanning text stream for micro-cultural preferences and entity anchors...",
+      "[LLM] Extracting structured taste parameters and specific brand/artist entities...",
+      "[LLM AGENT 1] Diligently isolated 22 taste variables: Specialty Coffee, Sustainable Luxury Fashion, Lagom Lifestyle, Sustainable Luxury, Nordic Interior Design, Eco-conscious Fashion, Fair-Trade Coffee, Light-Roast Single-Origin, Minimalist Art Galleries, Acoustic Neo-Classical Music, Farm-to-Table Dining, Nordic Gastronomy, High-Design Boutique Hotels, Independent Art Bookstores, Hidden Culinary Spaces, Architectural Design Fusion, Quiet Sophistication, Modern Scandinavian Leadership, Organic Materials, Clean Geometric Forms, Environmental Mindfulness, High-Concept Design",
+      "[LLM AGENT 1] Isolated 8 specific cultural entity anchors: Stockholm, London, Sweden, Lagom, Nordic, Green Technology, Fair-Trade Coffee, Farm-to-Table",
+      "[QLOO] Resolving 22 taste indicators to Qloo tag URNs...",
+      "[QLOO TAG MAP] Specialty Coffee -> Specialty Coffee (urn:tag:interests:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Sustainable Luxury Fashion -> Sustainable Luxury (urn:tag:lifestyle:qloo:sustainable_luxury)",
+      "[QLOO TAG MAP] Lagom Lifestyle -> Lifestyle Store (urn:tag:cuisine:qloo:lifestyle_store)",
+      "[QLOO TAG MAP] Sustainable Luxury -> Sustainable Luxury (urn:tag:lifestyle:qloo:sustainable_luxury)",
+      "[QLOO TAG MAP] Nordic Interior Design -> Nordic Interior Design (urn:tag:interests:qloo:nordic_interior_design)",
+      "[QLOO TAG MAP] Eco-conscious Fashion -> Eco-Conscious Fashion (urn:tag:lifestyle:qloo:eco_conscious_fashion)",
+      "[QLOO TAG MAP] Fair-Trade Coffee -> Fair Trade Coffee (urn:tag:menu_highlight:qloo:fair_trade_coffee)",
+      "[QLOO TAG MAP] Light-Roast Single-Origin -> Single Origin (urn:tag:ingredient_focus:qloo:single_origin)",
+      "[QLOO TAG MAP] Minimalist Art Galleries -> Art Galleries (urn:tag:amenity:qloo:art_galleries)",
+      "[QLOO TAG MAP] Acoustic Neo-Classical Music -> Music (urn:tag:genre:qloo:music)",
+      "[QLOO TAG MAP] Farm-to-Table Dining -> no confident Qloo tag",
+      "[QLOO TAG MAP] Nordic Gastronomy -> Gastronomy (urn:tag:interests:qloo:gastronomy)",
+      "[QLOO TAG MAP] High-Design Boutique Hotels -> Hotel (urn:tag:genre:place:hotel)",
+      "[QLOO TAG MAP] Independent Art Bookstores -> no confident Qloo tag",
+      "[QLOO TAG MAP] Hidden Culinary Spaces -> Space (urn:tag:category:qloo:space)",
+      "[QLOO TAG MAP] Architectural Design Fusion -> no confident Qloo tag",
+      "[QLOO TAG MAP] Quiet Sophistication -> no confident Qloo tag",
+      "[QLOO TAG MAP] Modern Scandinavian Leadership -> no confident Qloo tag",
+      "[QLOO TAG MAP] Organic Materials -> no confident Qloo tag",
+      "[QLOO TAG MAP] Clean Geometric Forms -> no confident Qloo tag",
+      "[QLOO TAG MAP] Environmental Mindfulness -> no confident Qloo tag",
+      "[QLOO TAG MAP] High-Concept Design -> no confident Qloo tag",
+      "[QLOO] /search resolved entity \"Stockholm\" -> Stockholm (67B1EA06-A470-400C-82D3-40C778A75693)",
+      "[QLOO] /search resolved entity \"London\" -> London (4F18635D-75D6-43EC-B8B9-8DFAEB8C5A29)",
+      "[QLOO] /search resolved entity \"Sweden\" -> Sweden (F848DC1A-6172-45C6-A6F6-FB0BBD14285B)",
+      "[QLOO] /search resolved entity \"Lagom\" -> Lago Moreno Este (359EF64F-6A1E-4462-BF1C-F01303BB1D6E)",
+      "[QLOO] /search resolved entity \"Nordic\" -> Nordic (FDDC39DD-7E47-4390-8A60-0371F0C61C06)",
+      "[QLOO] /search resolved entity \"Green Technology\" -> Surya Green Banquet (96682088-B2BC-41C0-8B9D-14C5BFC383FA)",
+      "[QLOO] /search resolved entity \"Fair-Trade Coffee\" -> Fair Trade Coffee House (5C5EC5D6-EA56-47F8-8F74-50863AD6276D)",
+      "[QLOO] /search resolved entity \"Farm-to-Table\" -> Farm To Table (A92AE150-F1B3-4ECB-9970-71ADE87339EF)",
+      "[QLOO] /search resolved entity \"Specialty Coffee\" -> Specialty Coffee Maliha (1E7727BC-4E87-4E8E-8135-47D3EF9AC45D)",
+      "[QLOO] /search resolved entity \"Sustainable Luxury Fashion\" -> Vikings Luxury Buffet - SM Megamall (9F38E784-1EF3-4F1C-812E-38DAE519D4ED)",
+      "[QLOO] Multi-layered Qloo query: 13 tag signals + 10 entity affinity seeds.",
+      "[QLOO] /v2/insights place signals(tags:13, entities:10) location=Paris offset=24 take=24 -> 24 candidates",
+      "[QLOO] /v2/insights place signals(tags:13, entities:10) location=Paris offset=0 take=24 -> 24 candidates",
+      "[QLOO] /v2/trending unavailable for seeds; skipped",
+      "[RANK] tag-overlap top3/category -> Hotel:3 Museum:3 Shop:3 Cafe:1 Restaurant:3 Bar:1 (kept 14/48 unique)",
+      "[AGENT] Synthesizing corporate strategy report and taste rationales...",
+      "[SCHEDULER] Composing time-blocked 1-day itinerary...",
+      "[EXPORT] Package ready: PDF/ICS/CSV available.",
+      "[CACHE] ✅ Result saved to disk for future instant retrieval (key: fiona::paris)."
+    ],
+    "mode": "live",
+    "cachedAt": 1793231161015
+  },
+  "kenji::tokyo": {
+    "tags": [
+      {
+        "name": "Vinyl listening bars",
+        "category": "Nightlife",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:setting:qloo:listening_bar",
+        "qlooTagName": "Listening Bar"
+      },
+      {
+        "name": "Brutalist architecture",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:brutalist_architecture",
+        "qlooTagName": "Brutalist Architecture"
+      },
+      {
+        "name": "Mid-Century Modern",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:mid_century_modern",
+        "qlooTagName": "Mid Century Modern"
+      },
+      {
+        "name": "Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Independent Books & Graphic Novels",
+        "category": "Books",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:genre:media:novels",
+        "qlooTagName": "Novels"
+      },
+      {
+        "name": "Scandinavian Minimalism",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:scandinavian_minimalism",
+        "qlooTagName": "Scandinavian Minimalism"
+      },
+      {
+        "name": "Artisanal Craftsmanship",
+        "category": "Other",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:artisanal_craftsmanship",
+        "qlooTagName": "Artisanal Craftsmanship"
+      },
+      {
+        "name": "Mid-century Brutalist Architecture",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:architecture",
+        "qlooTagName": "Architecture"
+      },
+      {
+        "name": "Independent Japanese Menswear",
+        "category": "Fashion",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Rare Architectural Publications",
+        "category": "Books",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:product_service:qloo:publications",
+        "qlooTagName": "Publications"
+      },
+      {
+        "name": "Vintage Jazz Vinyl",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interest_adjacency:qloo:vintage_jazz_vinyl",
+        "qlooTagName": "Vintage Jazz Vinyl"
+      },
+      {
+        "name": "Vintage Electronic Vinyl",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:material:qloo:vinyl",
+        "qlooTagName": "Vinyl"
+      },
+      {
+        "name": "Underground Listening Bars",
+        "category": "Nightlife",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Third-wave Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:ingredient_focus:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Single-origin Coffee",
+        "category": "Dining",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Geometric Interior Spaces",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:category:qloo:space",
+        "qlooTagName": "Space"
+      },
+      {
+        "name": "Functionalism",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:core_value:qloo:functionalism",
+        "qlooTagName": "Functionalism"
+      },
+      {
+        "name": "Understated Luxury",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Heritage Menswear Boutiques",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:shopping:qloo:boutiques",
+        "qlooTagName": "Boutiques"
+      },
+      {
+        "name": "Independent Design Bookshops",
+        "category": "Books",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:independent_design",
+        "qlooTagName": "Independent Design"
+      },
+      {
+        "name": "Low-lit Cocktail Lounges",
+        "category": "Nightlife",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Ambient Experimental Cuts",
+        "category": "Music",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Minimalist Aesthetic",
+        "category": "Other",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "High-fidelity Audio",
+        "category": "Music",
+        "sourceContext": "social profile"
+      }
+    ],
+    "rationaleReport": "**Corporate Strategy Report – Tokyo**\n\n**Client Archetype**  \nThe client is a discerning connoisseur of curated cultural experiences, seeking environments where design, sound, and craftsmanship intersect. Their palate favors understated luxury, mid‑century and brutalist aesthetics, and high‑fidelity audio paired with specialty coffee rituals.\n\n**Strategic Taste Rationale**  \n- **Haneda Airport (Shop, 80%)** – The terminal’s sleek, functionalist retail spaces echo the client’s love for Scandinavian minimalism and geometric interiors, while its curated Japanese menswear boutiques satisfy their heritage‑fashion appetite.  \n- **Coffee Zingaro (Cafe, 79%)** – This third‑wave café serves single‑origin beans in a low‑lit, concrete‑rich setting that mirrors the client’s preference for artisanal coffee and brutalist, low‑key luxury.  \n- **Life (Park, 80%)** – The park’s open, minimalist landscape provides a tranquil backdrop for vinyl listening, aligning with the client’s affinity for ambient experimental cuts and functionalist design.  \n- **Mori Art Museum (Museum, 79%)** – Its rotating exhibitions of avant‑garde media and geometric galleries resonate with the client’s interest in rare architectural publications and high‑fidelity audio installations.  \n- **Roppongi Hills – Tokyo City View (Museum, 79%)** – The observation deck’s sleek, mid‑century modern silhouette and curated design bookshop cater to the client’s independent design bookshop and vintage jazz vinyl passions.  \n- **Kiddy Land (Shop, 79%)** – Though playful, its curated graphic‑novel section and limited‑edition collaborations appeal to the client’s independent books & graphic novel taste within a refined retail context.\n\n**Recommendation**  \nPrioritize immersive, design‑forward venues that blend high‑fidelity sound, specialty coffee, and curated menswear, ensuring each touchpoint reinforces the client’s sophisticated, minimalist aesthetic while showcasing Tokyo’s cutting‑edge cultural scene.",
+    "venues": [
+      {
+        "id": "F2168A09-5F8C-4C7D-9D0C-D07A8F7EF400",
+        "name": "Haneda Airport",
+        "category": "Shop",
+        "affinity": 0.7968929452243546,
+        "lat": 35.5482964,
+        "lon": 139.7779951,
+        "address": "Hanedakuko Ota City, Tokyo 144-0041 Japan",
+        "image": "https://images.qloo.com/i/F2168A09-5F8C-4C7D-9D0C-D07A8F7EF400-3Kar11-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Haneda Airport bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "5B3D0C3D-E7CE-48FD-93A7-8BEC452A22D2",
+        "name": "Coffee Zingaro（Cafe Zingaro）",
+        "category": "Cafe",
+        "affinity": 0.7943087004832549,
+        "lat": 35.7095395,
+        "lon": 139.6657924,
+        "address": "2F 5 Chome-52-15 Nakano Nakano City, Tokyo 164-0001 Japan",
+        "image": "https://images.qloo.com/i/5B3D0C3D-E7CE-48FD-93A7-8BEC452A22D2-2ZmcFy-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Coffee Zingaro（Cafe Zingaro） bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "268F74EB-5549-4AA0-B894-BC5227A896A2",
+        "name": "Life",
+        "category": "Park",
+        "affinity": 0.795184423217888,
+        "lat": 35.6884075,
+        "lon": 139.7029243,
+        "address": "コムロビル 407 4 Chome-1-22 Shinjuku Shinjuku City, Tokyo 160-0022 Japan",
+        "rationale": "Strategic Taste Rationale: Life bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "2C22E484-392B-4AE2-A00E-E811AAED1075",
+        "name": "Mori Art Museum",
+        "category": "Museum",
+        "affinity": 0.7943227792283213,
+        "lat": 35.6604621,
+        "lon": 139.7292785,
+        "address": "Roppongi Hills Mori Tower, 53階 6 Chome-10-1 Roppongi Minato City, Tokyo 106-6150 Japan",
+        "image": "https://images.qloo.com/i/2C22E484-392B-4AE2-A00E-E811AAED1075-0Fv0Om-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Mori Art Museum bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "DF2A91E2-0C78-4DF1-A7C1-2FB97CFF2A5E",
+        "name": "Roppongi Hills - Tokyo City View",
+        "category": "Museum",
+        "affinity": 0.7927478618691016,
+        "lat": 35.6600712,
+        "lon": 139.7292907,
+        "address": "Roppongi Hills Mori Tower, 52階 6 Chome-10-1 Roppongi Minato City, Tokyo 106-0032 Japan",
+        "image": "https://images.qloo.com/i/DF2A91E2-0C78-4DF1-A7C1-2FB97CFF2A5E-2xjwuf-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Roppongi Hills - Tokyo City View bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "510180A6-407B-476B-9CCF-515055B3A1C6",
+        "name": "Kiddy Land",
+        "category": "Shop",
+        "affinity": 0.7949751056680777,
+        "lat": 35.667733,
+        "lon": 139.7065474,
+        "address": "6 Chome-1-9 Jingumae Shibuya, Tokyo 150-0001 Japan",
+        "image": "https://images.qloo.com/i/510180A6-407B-476B-9CCF-515055B3A1C6-13kmZX-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Kiddy Land bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "19C5CCF5-96C4-40E3-8E1E-F7F124A49F18",
+        "name": "みずいろの花",
+        "category": "Cafe",
+        "affinity": 0.7961585263129598,
+        "lat": 35.7109052,
+        "lon": 139.5776262,
+        "address": "Japan 〒180-0001 Tokyo, Musashino, Kichijoji Kitamachi, 1 Chome−20−11",
+        "image": "https://images.qloo.com/i/19C5CCF5-96C4-40E3-8E1E-F7F124A49F18-3LKwgJ-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: みずいろの花 bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "5F845C02-1D4D-4533-8714-A499B0C2BFDA",
+        "name": "Peter Rabbit Garden Cafe",
+        "category": "Cafe",
+        "affinity": 0.7945887860621618,
+        "lat": 35.6094375,
+        "lon": 139.66920539999998,
+        "address": "Myu, 1F 1 Chome-25-20 Jiyugaoka Meguro City, Tokyo 152-0035 Japan",
+        "image": "https://images.qloo.com/i/5F845C02-1D4D-4533-8714-A499B0C2BFDA-1PC5Lo-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Peter Rabbit Garden Cafe bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "6A2134FF-EC32-4499-804F-ACD5A3C4B462",
+        "name": "THE CORNER",
+        "category": "Restaurant",
+        "affinity": 0.792868742077424,
+        "lat": 35.6645603,
+        "lon": 139.7033368,
+        "address": "Japan 〒150-0001 Tokyo, Shibuya, Jingumae, 5 Chome−29−1 J529, 4F",
+        "image": "https://images.qloo.com/i/6A2134FF-EC32-4499-804F-ACD5A3C4B462-1hLjQf-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: THE CORNER bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "FD93EEE0-AE27-40C1-9D1F-B651D4F423EE",
+        "name": "NORA HAIR SALON",
+        "category": "Museum",
+        "affinity": 0.7930429361545204,
+        "lat": 35.662960999999996,
+        "lon": 139.715755,
+        "address": "Japan 〒107-0062 Tokyo, Minato City, Minamiaoyama, 5 Chome−3−10 BF",
+        "image": "https://images.qloo.com/i/FD93EEE0-AE27-40C1-9D1F-B651D4F423EE-1ruh1l-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: NORA HAIR SALON bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "6A99CC3E-4FA9-4988-B041-DC799D9A96A1",
+        "name": "SHIMA HARAJUKU LEAP",
+        "category": "Venue",
+        "affinity": 0.798559800240526,
+        "lat": 35.6695826,
+        "lon": 139.7064402,
+        "address": "Japan 〒150-0001 Tokyo, Shibuya, Jingumae, 4 Chome−32−12 2F",
+        "image": "https://images.qloo.com/i/6A99CC3E-4FA9-4988-B041-DC799D9A96A1-3TDQjE-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: SHIMA HARAJUKU LEAP bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "86D0CBB1-D984-49FF-AA72-80F18DD3F72D",
+        "name": "セレス高田馬場",
+        "category": "Theater",
+        "affinity": 0.797060675921199,
+        "lat": 35.714183,
+        "lon": 139.70550749999998,
+        "address": "Japan 〒169-0075 Tokyo, Shinjuku City, Takadanobaba, 2 Chome−16−10",
+        "image": "https://images.qloo.com/i/86D0CBB1-D984-49FF-AA72-80F18DD3F72D-1o1XW9-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: セレス高田馬場 bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "D6BB1413-DDED-4A53-9504-C478C000B1FA",
+        "name": "District - Brasserie, Bar, Lounge",
+        "category": "Restaurant",
+        "affinity": 0.7952231621062719,
+        "lat": 35.685583,
+        "lon": 139.6922749,
+        "address": "L2, Kimpton 3 Chome-4-7 Nishishinjuku Shinjuku City, Tokyo 160-0023 Japan",
+        "image": "https://images.qloo.com/i/D6BB1413-DDED-4A53-9504-C478C000B1FA-1gAiJw-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: District - Brasserie, Bar, Lounge bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "87EDD896-EDDA-4253-A327-9D9E35682857",
+        "name": "whyte",
+        "category": "Shop",
+        "affinity": 0.7941120496268618,
+        "lat": 35.6711465,
+        "lon": 139.709018,
+        "address": "3 Chome-27-7 Jingumae Shibuya, Tokyo 150-0001 Japan",
+        "image": "https://images.qloo.com/i/87EDD896-EDDA-4253-A327-9D9E35682857-0xw0ix-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: whyte bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "416336CA-547D-4A1D-A5FA-65EE875CFC5A",
+        "name": "日本美容専門学校",
+        "category": "Park",
+        "affinity": 0.7993399260560975,
+        "lat": 35.709662099999996,
+        "lon": 139.7041396,
+        "address": "1 Chome-21-12 Takadanobaba Shinjuku City, Tokyo 169-0075 Japan",
+        "image": "https://images.qloo.com/i/416336CA-547D-4A1D-A5FA-65EE875CFC5A-2h2Ie8-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: 日本美容専門学校 bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "6A34E35F-1358-480B-BD75-F8F1B5ECA14F",
+        "name": "SUD Restaurant / TERAKOYA",
+        "category": "Restaurant",
+        "affinity": 0.7939667764003984,
+        "lat": 35.6559605,
+        "lon": 139.7628777,
+        "address": "atre竹芝 タワ 棟2F 1 Chome-10-30 Kaigan Minato City, Tokyo 105-0022 Japan",
+        "image": "https://images.qloo.com/i/6A34E35F-1358-480B-BD75-F8F1B5ECA14F-0cDYiJ-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: SUD Restaurant / TERAKOYA bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "09:00",
+        "title": "Haneda Airport",
+        "venueId": "F2168A09-5F8C-4C7D-9D0C-D07A8F7EF400",
+        "notes": "Shop"
+      },
+      {
+        "time": "12:30",
+        "title": "Coffee Zingaro（Cafe Zingaro）",
+        "venueId": "5B3D0C3D-E7CE-48FD-93A7-8BEC452A22D2",
+        "notes": "Cafe"
+      },
+      {
+        "time": "16:00",
+        "title": "Life",
+        "venueId": "268F74EB-5549-4AA0-B894-BC5227A896A2",
+        "notes": "Park"
+      },
+      {
+        "time": "19:30",
+        "title": "Mori Art Museum",
+        "venueId": "2C22E484-392B-4AE2-A00E-E811AAED1075",
+        "notes": "Museum"
+      }
+    ],
+    "logs": [
+      "[INTAKE] Received profile for the client.",
+      "[OSINT] No URL provided; using supplied social text dump.",
+      "[LLM AGENT 1] Scanning text stream for micro-cultural preferences and entity anchors...",
+      "[LLM] Extracting structured taste parameters and specific brand/artist entities...",
+      "[LLM AGENT 1] Diligently isolated 24 taste variables: Vinyl listening bars, Brutalist architecture, Mid-Century Modern, Specialty Coffee, Independent Books & Graphic Novels, Scandinavian Minimalism, Artisanal Craftsmanship, Mid-century Brutalist Architecture, Independent Japanese Menswear, Rare Architectural Publications, Vintage Jazz Vinyl, Vintage Electronic Vinyl, Underground Listening Bars, Third-wave Specialty Coffee, Single-origin Coffee, Geometric Interior Spaces, Functionalism, Understated Luxury, Heritage Menswear Boutiques, Independent Design Bookshops, Low-lit Cocktail Lounges, Ambient Experimental Cuts, Minimalist Aesthetic, High-fidelity Audio",
+      "[LLM AGENT 1] Isolated 10 specific cultural entity anchors: Kenji Tanaka, Daikanyama district, Shibuya, Tokyo, London, Japanese menswear labels, Architectural publications, Vintage jazz records, Third-wave coffee roasters, Heritage menswear boutiques",
+      "[QLOO] Resolving 24 taste indicators to Qloo tag URNs...",
+      "[QLOO TAG MAP] Vinyl listening bars -> Listening Bar (urn:tag:setting:qloo:listening_bar)",
+      "[QLOO TAG MAP] Brutalist architecture -> Brutalist Architecture (urn:tag:decor:qloo:brutalist_architecture)",
+      "[QLOO TAG MAP] Mid-Century Modern -> Mid Century Modern (urn:tag:decor:qloo:mid_century_modern)",
+      "[QLOO TAG MAP] Specialty Coffee -> Specialty Coffee (urn:tag:interests:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Independent Books & Graphic Novels -> Novels (urn:tag:genre:media:novels)",
+      "[QLOO TAG MAP] Scandinavian Minimalism -> Scandinavian Minimalism (urn:tag:decor:qloo:scandinavian_minimalism)",
+      "[QLOO TAG MAP] Artisanal Craftsmanship -> Artisanal Craftsmanship (urn:tag:interests:qloo:artisanal_craftsmanship)",
+      "[QLOO TAG MAP] Mid-century Brutalist Architecture -> Architecture (urn:tag:interests:qloo:architecture)",
+      "[QLOO TAG MAP] Independent Japanese Menswear -> no confident Qloo tag",
+      "[QLOO TAG MAP] Rare Architectural Publications -> Publications (urn:tag:product_service:qloo:publications)",
+      "[QLOO TAG MAP] Vintage Jazz Vinyl -> Vintage Jazz Vinyl (urn:tag:interest_adjacency:qloo:vintage_jazz_vinyl)",
+      "[QLOO TAG MAP] Vintage Electronic Vinyl -> Vinyl (urn:tag:material:qloo:vinyl)",
+      "[QLOO TAG MAP] Underground Listening Bars -> no confident Qloo tag",
+      "[QLOO TAG MAP] Third-wave Specialty Coffee -> Specialty Coffee (urn:tag:ingredient_focus:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Single-origin Coffee -> no confident Qloo tag",
+      "[QLOO TAG MAP] Geometric Interior Spaces -> Space (urn:tag:category:qloo:space)",
+      "[QLOO TAG MAP] Functionalism -> Functionalism (urn:tag:core_value:qloo:functionalism)",
+      "[QLOO TAG MAP] Understated Luxury -> no confident Qloo tag",
+      "[QLOO TAG MAP] Heritage Menswear Boutiques -> Boutiques (urn:tag:shopping:qloo:boutiques)",
+      "[QLOO TAG MAP] Independent Design Bookshops -> Independent Design (urn:tag:interests:qloo:independent_design)",
+      "[QLOO TAG MAP] Low-lit Cocktail Lounges -> no confident Qloo tag",
+      "[QLOO TAG MAP] Ambient Experimental Cuts -> no confident Qloo tag",
+      "[QLOO TAG MAP] Minimalist Aesthetic -> no confident Qloo tag",
+      "[QLOO TAG MAP] High-fidelity Audio -> no confident Qloo tag",
+      "[QLOO] /search resolved entity \"Kenji Tanaka\" -> Kenji Tanaka (ACBDE487-15B7-461C-B9A8-46DCC6AC0446)",
+      "[QLOO] /search resolved entity \"Daikanyama district\" -> Daikan'yama (CBB68BBD-1D21-4DE4-8DEC-FF096C69E380)",
+      "[QLOO] /search resolved entity \"Shibuya\" -> 渋谷 (58125D60-1214-4CFC-BFB0-999ECB5F303D)",
+      "[QLOO] /search resolved entity \"Tokyo\" -> Tokyo (1EB0550F-0F82-43A2-B501-4D33B5488FD1)",
+      "[QLOO] /search resolved entity \"London\" -> London (4F18635D-75D6-43EC-B8B9-8DFAEB8C5A29)",
+      "[QLOO] /search resolved entity \"Japanese menswear labels\" -> Morikami Museum and Japanese Gardens (9815804B-B4C2-4B82-9C19-B37A10AB8A65)",
+      "[QLOO] /search resolved entity \"Architectural publications\" -> Architectural Digest (4EF8A4F4-894A-480E-A270-51C1907269AE)",
+      "[QLOO] /search resolved entity \"Vintage jazz records\" -> Loop-Finding-Jazz-Records (12C6BC57-7635-4EA3-A55E-3705CF0527D4)",
+      "[QLOO] /search resolved entity \"Third-wave coffee roasters\" -> Third Wave Coffee Roasters (CF96C2B7-DA58-4AC6-8BD6-93F6CF11D51B)",
+      "[QLOO] /search resolved entity \"Heritage menswear boutiques\" -> 1881 Heritage (4A297BB4-4E41-4271-B79C-BE515414F6D9)",
+      "[QLOO] Multi-layered Qloo query: 16 tag signals + 10 entity affinity seeds.",
+      "[QLOO] /v2/insights place signals(tags:16, entities:10) location=Tokyo offset=24 take=24 -> 24 candidates",
+      "[QLOO] /v2/insights place signals(tags:16, entities:10) location=Tokyo offset=0 take=24 -> 24 candidates",
+      "[QLOO] /v2/trending unavailable for seeds; skipped",
+      "[RANK] tag-overlap top3/category -> Shop:3 Cafe:3 Park:2 Museum:3 Restaurant:3 Venue:1 Theater:1 (kept 16/48 unique)",
+      "[AGENT] Synthesizing corporate strategy report and taste rationales...",
+      "[SCHEDULER] Composing time-blocked 1-day itinerary...",
+      "[EXPORT] Package ready: PDF/ICS/CSV available.",
+      "[CACHE] ✅ Result saved to disk for future instant retrieval (key: kenji::tokyo)."
+    ],
+    "mode": "live",
+    "cachedAt": 1793231414383
+  },
+  "carlos::tokyo": {
+    "tags": [
+      {
+        "name": "Vinyl listening bars",
+        "category": "Nightlife",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:setting:qloo:listening_bar",
+        "qlooTagName": "Listening Bar"
+      },
+      {
+        "name": "Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Tapas",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:cuisine:qloo:tapas",
+        "qlooTagName": "Tapas"
+      },
+      {
+        "name": "Natural Wine & Vermouth Bars",
+        "category": "Nightlife",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:cuisine:qloo:natural_wine",
+        "qlooTagName": "Natural Wine"
+      },
+      {
+        "name": "Artisanal Craftsmanship",
+        "category": "Other",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:artisanal_craftsmanship",
+        "qlooTagName": "Artisanal Craftsmanship"
+      },
+      {
+        "name": "Smart-Casual Aesthetic",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:personal_style:qloo:smart_casual",
+        "qlooTagName": "Smart Casual"
+      },
+      {
+        "name": "Unstructured Blazers",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:product_service:qloo:blazers",
+        "qlooTagName": "Blazers"
+      },
+      {
+        "name": "Artisanal Leather Footwear",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:product_category:qloo:footwear",
+        "qlooTagName": "Footwear"
+      },
+      {
+        "name": "Minimalist Luxury Watches",
+        "category": "Fashion",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:product_service:qloo:watches",
+        "qlooTagName": "Watches"
+      },
+      {
+        "name": "Indie Rock",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:genre:music:indie_rock",
+        "qlooTagName": "indie rock"
+      },
+      {
+        "name": "Underground Live Music",
+        "category": "Music",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interest_adjacency:qloo:underground_live_music",
+        "qlooTagName": "Underground Live Music"
+      },
+      {
+        "name": "Vinyl Cocktail Bar",
+        "category": "Nightlife",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Natural Wine Bars",
+        "category": "Dining",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Conceptual Tapas Galleries",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:conceptual_art",
+        "qlooTagName": "Conceptual Art"
+      },
+      {
+        "name": "Avant-Garde Gastronomy",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:interests:qloo:avant_garde_gastronomy",
+        "qlooTagName": "Avant-Garde Gastronomy"
+      },
+      {
+        "name": "Third-Wave Espresso Lounges",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:category:place:lounge",
+        "qlooTagName": "Lounge"
+      },
+      {
+        "name": "Chef-Driven Culinary Labs",
+        "category": "Dining",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:amenity:qloo:labs",
+        "qlooTagName": "Labs"
+      },
+      {
+        "name": "High-Design Boutique Hotels",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:genre:place:hotel",
+        "qlooTagName": "Hotel"
+      },
+      {
+        "name": "Contemporary Café Art",
+        "category": "Art",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:decor:qloo:contemporary_art_cafe",
+        "qlooTagName": "Contemporary Art Cafe"
+      },
+      {
+        "name": "Spanish Abstract Paintings",
+        "category": "Art",
+        "sourceContext": "social profile"
+      },
+      {
+        "name": "Graphic Print Collecting",
+        "category": "Art",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:media_type:qloo:print",
+        "qlooTagName": "Print"
+      },
+      {
+        "name": "Minimalist Design Aesthetic",
+        "category": "Design",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:target_audience:qloo:aesthetic",
+        "qlooTagName": "Aesthetic"
+      },
+      {
+        "name": "High-Energy Mediterranean Lifestyle",
+        "category": "Other",
+        "sourceContext": "social profile",
+        "qlooTagId": "urn:tag:lifestyle:qloo:mediterranean_lifestyle",
+        "qlooTagName": "Mediterranean Lifestyle"
+      }
+    ],
+    "rationaleReport": "**Client Archetype**  \nCarlos Vega is a discerning executive who blends a high‑energy Mediterranean lifestyle with a passion for avant‑garde gastronomy and indie music culture. He seeks environments where minimalist luxury, artisanal craftsmanship, and un‑scripted style converge to create immersive experiences.  \n\n**Strategic Taste Rationale**  \n- **Philippe Mille Tokyo** offers a boutique hotel setting that mirrors his love for smart‑casual aesthetics and minimalist luxury watches, while its in‑house espresso lounge satisfies his third‑wave coffee cravings.  \n- **Jean‑Georges Tokyo** delivers chef‑driven culinary labs that echo his appetite for avant‑garde tapas and conceptual gastronomy, complemented by a curated natural‑wine list.  \n- **Union Square Tokyo** provides a museum‑like atmosphere that aligns with his graphic‑print collecting and Spanish abstract‑painting interests, creating a cultural backdrop for his vinyl listening sessions.  \n- **ONE@Tokyo** blends high‑design boutique hotel design with sleek, unstructured blazers, catering to his preference for artisanal leather footwear and minimalist décor.  \n- **Star Bar Ginza** is a vinyl cocktail bar that fuses underground live music with natural‑wine selections, directly reflecting his indie‑rock and vermouth‑bar passions.  \n- **Chez Olivier** presents a Spanish‑inspired tapas gallery where avant‑garde dishes meet natural‑wine pairings, resonating with his Mediterranean energy and tapas enthusiasm.  \n\n**Closing Recommendation**  \nPrioritize **Philippe Mille Tokyo** and **Star Bar Ginza** for day‑to‑night itineraries, then layer the remaining venues to craft a seamless narrative of craft, culture, and culinary innovation throughout the Tokyo stay.",
+    "venues": [
+      {
+        "id": "42530494-2B94-48F9-B089-EEB4F9DC73E2",
+        "name": "Philippe Mille Tokyo",
+        "category": "Hotel",
+        "affinity": 0.8278635606998509,
+        "lat": 35.666769699999996,
+        "lon": 139.7306514,
+        "address": "Japan 〒107-0052 Tokyo, Minato City, Akasaka, 9 Chome−7−4 東京ミッドタウン ガーデンテラス4F",
+        "image": "https://images.qloo.com/i/42530494-2B94-48F9-B089-EEB4F9DC73E2-2jL8dd-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Philippe Mille Tokyo bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "C86D6C43-3B77-41B4-A241-3334FFA919EB",
+        "name": "Jean-Georges Tokyo",
+        "category": "Hotel",
+        "affinity": 0.8224716985298074,
+        "lat": 35.659025799999995,
+        "lon": 139.7307116,
+        "address": "ヒルズ 六本木けやき坂通り 1F 6 Chome-12-4 Roppongi Minato City, Tokyo 106-0032 Japan",
+        "image": "https://images.qloo.com/i/C86D6C43-3B77-41B4-A241-3334FFA919EB-4xvMzk-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Jean-Georges Tokyo bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "24F98DE0-2393-4B21-BD47-EC136C0F483C",
+        "name": "Union Square Tokyo",
+        "category": "Museum",
+        "affinity": 0.8260098124830841,
+        "lat": 35.666817099999996,
+        "lon": 139.7308,
+        "address": "東京ミッドタウン ガーデンテラス B1 9 Chome-7-4 Akasaka Minato City, Tokyo 107-0052 Japan",
+        "image": "https://images.qloo.com/i/24F98DE0-2393-4B21-BD47-EC136C0F483C-19wpT6-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Union Square Tokyo bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "23BA186A-AD12-4D9B-9483-502FF8AADD21",
+        "name": "ONE@Tokyo",
+        "category": "Hotel",
+        "affinity": 0.8214231169502972,
+        "lat": 35.711788899999995,
+        "lon": 139.81597779999998,
+        "address": "1 Chome-19-3 Oshiage Sumida City, Tokyo 131-0045 Japan",
+        "image": "https://images.qloo.com/i/23BA186A-AD12-4D9B-9483-502FF8AADD21-4mGbM3-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: ONE@Tokyo bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "6887DD30-D2C5-4FDE-86F1-24D46D476A88",
+        "name": "Star Bar Ginza",
+        "category": "Bar",
+        "affinity": 0.8248660055203684,
+        "lat": 35.674741999999995,
+        "lon": 139.766896,
+        "address": "MODERNS GINZA B1F 1 Chome-5-13 Ginza Chuo City, Tokyo 104-0061 Japan",
+        "image": "https://images.qloo.com/i/6887DD30-D2C5-4FDE-86F1-24D46D476A88-2YkSLB-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Star Bar Ginza bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "0BD998BB-A028-4882-A10E-3FA1808BE50E",
+        "name": "Chez Olivier",
+        "category": "Restaurant",
+        "affinity": 0.8213682285266888,
+        "lat": 35.691608599999995,
+        "lon": 139.7411897,
+        "address": "グランドメゾン九段南 1F 4 Chome-1-10 Kudanminami Chiyoda City, Tokyo 102-0074 Japan",
+        "image": "https://images.qloo.com/i/0BD998BB-A028-4882-A10E-3FA1808BE50E-39xU4Z-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Chez Olivier bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "872B6906-963E-4D0D-A815-33F65BF6119C",
+        "name": "Butagumi",
+        "category": "Museum",
+        "affinity": 0.8286397504333098,
+        "lat": 35.6609663,
+        "lon": 139.7221289,
+        "address": "2 Chome-24-9 Nishiazabu Minato City, Tokyo 106-0031 Japan",
+        "image": "https://images.qloo.com/i/872B6906-963E-4D0D-A815-33F65BF6119C-2NnXEb-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Butagumi bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "CED250B1-411C-4AF6-A2E3-EFAABC1F6CAB",
+        "name": "THE CITY BAKERY Tokyo Garden Terrace Kioicho",
+        "category": "Cafe",
+        "affinity": 0.8212270702096156,
+        "lat": 35.679234699999995,
+        "lon": 139.73687379999998,
+        "address": "東京ガーデンテラス 1F 1-3 Kioicho Chiyoda City, Tokyo 102-0094 Japan",
+        "image": "https://images.qloo.com/i/CED250B1-411C-4AF6-A2E3-EFAABC1F6CAB-1t2Dse-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: THE CITY BAKERY Tokyo Garden Terrace Kioicho bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "FAAB8F0F-EE08-4AFD-955D-0E86928A8A5B",
+        "name": "Ristorante da Nino",
+        "category": "Restaurant",
+        "affinity": 0.8214124441874303,
+        "lat": 35.6679707,
+        "lon": 139.72670979999998,
+        "address": "グランドメゾン南青山 乃木坂1F 1 Chome-15-19 Minamiaoyama Minato City, Tokyo 107-0062 Japan",
+        "image": "https://images.qloo.com/i/FAAB8F0F-EE08-4AFD-955D-0E86928A8A5B-3YUpPR-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Ristorante da Nino bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "4CEBBF19-1BAB-41C8-8C22-4BE45D0313E2",
+        "name": "La Bisboccia",
+        "category": "Restaurant",
+        "affinity": 0.8224775424915682,
+        "lat": 35.6459103,
+        "lon": 139.72249739999998,
+        "address": "Hiroo Mtr Building, 1F 2 Chome-36-13 Ebisu Shibuya, Tokyo 150-0013 Japan",
+        "image": "https://images.qloo.com/i/4CEBBF19-1BAB-41C8-8C22-4BE45D0313E2-2Ncbg1-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: La Bisboccia bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "4079E8AD-B2DA-4ADC-99DD-D2CA953BF094",
+        "name": "Sakurai Japanese Tea Experience",
+        "category": "Museum",
+        "affinity": 0.8305471321679039,
+        "lat": 35.663573,
+        "lon": 139.71176,
+        "address": "スパイラルビル 5F 5 Chome-6-23 Minamiaoyama Minato City, Tokyo 107-0062 Japan",
+        "image": "https://images.qloo.com/i/4079E8AD-B2DA-4ADC-99DD-D2CA953BF094-1rMzxp-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Sakurai Japanese Tea Experience bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "1F643F75-0EFF-4BB2-A0D4-BCA5127EE454",
+        "name": "Anchor Point",
+        "category": "Cafe",
+        "affinity": 0.8218533036196425,
+        "lat": 35.6792983,
+        "lon": 139.7395761,
+        "address": "Kaiun Bld., 1F 2 Chome-6-4 Hirakawachō Chiyoda City, Tokyo 102-0093 Japan",
+        "image": "https://images.qloo.com/i/1F643F75-0EFF-4BB2-A0D4-BCA5127EE454-27ZJV0-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Anchor Point bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      },
+      {
+        "id": "BA3F124E-4355-43EA-887F-EC7F09626629",
+        "name": "Tender Bar",
+        "category": "Bar",
+        "affinity": 0.821388833395148,
+        "lat": 35.671250799999996,
+        "lon": 139.76211999999998,
+        "address": "9F 6 Chome-5-16 Ginza Chuo City, Tokyo 104-0061 Japan",
+        "image": "https://images.qloo.com/i/BA3F124E-4355-43EA-887F-EC7F09626629-0WxxTP-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Tender Bar bridges the client's Vinyl listening bars & Specialty Coffee preferences with Tokyo's local scene."
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "09:00",
+        "title": "Philippe Mille Tokyo",
+        "venueId": "42530494-2B94-48F9-B089-EEB4F9DC73E2",
+        "notes": "Hotel"
+      },
+      {
+        "time": "12:30",
+        "title": "Jean-Georges Tokyo",
+        "venueId": "C86D6C43-3B77-41B4-A241-3334FFA919EB",
+        "notes": "Hotel"
+      },
+      {
+        "time": "16:00",
+        "title": "Union Square Tokyo",
+        "venueId": "24F98DE0-2393-4B21-BD47-EC136C0F483C",
+        "notes": "Museum"
+      },
+      {
+        "time": "19:30",
+        "title": "ONE@Tokyo",
+        "venueId": "23BA186A-AD12-4D9B-9483-502FF8AADD21",
+        "notes": "Hotel"
+      }
+    ],
+    "logs": [
+      "[INTAKE] Received profile for Carlos Vega.",
+      "[OSINT] No URL provided; using supplied social text dump.",
+      "[LLM AGENT 1] Scanning text stream for micro-cultural preferences and entity anchors...",
+      "[LLM] Extracting structured taste parameters and specific brand/artist entities...",
+      "[LLM AGENT 1] Diligently isolated 23 taste variables: Vinyl listening bars, Specialty Coffee, Tapas, Natural Wine & Vermouth Bars, Artisanal Craftsmanship, Smart-Casual Aesthetic, Unstructured Blazers, Artisanal Leather Footwear, Minimalist Luxury Watches, Indie Rock, Underground Live Music, Vinyl Cocktail Bar, Natural Wine Bars, Conceptual Tapas Galleries, Avant-Garde Gastronomy, Third-Wave Espresso Lounges, Chef-Driven Culinary Labs, High-Design Boutique Hotels, Contemporary Café Art, Spanish Abstract Paintings, Graphic Print Collecting, Minimalist Design Aesthetic, High-Energy Mediterranean Lifestyle",
+      "[LLM AGENT 1] Isolated 9 specific cultural entity anchors: Chamberí district, Madrid, London, Southern European tech investors, Spanish artisanal leather footwear, Natural wine bars, Third-wave espresso lounges, Indie rock scene, Chef-driven culinary laboratories",
+      "[QLOO] Resolving 23 taste indicators to Qloo tag URNs...",
+      "[QLOO TAG MAP] Vinyl listening bars -> Listening Bar (urn:tag:setting:qloo:listening_bar)",
+      "[QLOO TAG MAP] Specialty Coffee -> Specialty Coffee (urn:tag:interests:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Tapas -> Tapas (urn:tag:cuisine:qloo:tapas)",
+      "[QLOO TAG MAP] Natural Wine & Vermouth Bars -> Natural Wine (urn:tag:cuisine:qloo:natural_wine)",
+      "[QLOO TAG MAP] Artisanal Craftsmanship -> Artisanal Craftsmanship (urn:tag:interests:qloo:artisanal_craftsmanship)",
+      "[QLOO TAG MAP] Smart-Casual Aesthetic -> Smart Casual (urn:tag:personal_style:qloo:smart_casual)",
+      "[QLOO TAG MAP] Unstructured Blazers -> Blazers (urn:tag:product_service:qloo:blazers)",
+      "[QLOO TAG MAP] Artisanal Leather Footwear -> Footwear (urn:tag:product_category:qloo:footwear)",
+      "[QLOO TAG MAP] Minimalist Luxury Watches -> Watches (urn:tag:product_service:qloo:watches)",
+      "[QLOO TAG MAP] Indie Rock -> indie rock (urn:tag:genre:music:indie_rock)",
+      "[QLOO TAG MAP] Underground Live Music -> Underground Live Music (urn:tag:interest_adjacency:qloo:underground_live_music)",
+      "[QLOO TAG MAP] Vinyl Cocktail Bar -> no confident Qloo tag",
+      "[QLOO TAG MAP] Natural Wine Bars -> no confident Qloo tag",
+      "[QLOO TAG MAP] Conceptual Tapas Galleries -> Conceptual Art (urn:tag:interests:qloo:conceptual_art)",
+      "[QLOO TAG MAP] Avant-Garde Gastronomy -> Avant-Garde Gastronomy (urn:tag:interests:qloo:avant_garde_gastronomy)",
+      "[QLOO TAG MAP] Third-Wave Espresso Lounges -> Lounge (urn:tag:category:place:lounge)",
+      "[QLOO TAG MAP] Chef-Driven Culinary Labs -> Labs (urn:tag:amenity:qloo:labs)",
+      "[QLOO TAG MAP] High-Design Boutique Hotels -> Hotel (urn:tag:genre:place:hotel)",
+      "[QLOO TAG MAP] Contemporary Café Art -> Contemporary Art Cafe (urn:tag:decor:qloo:contemporary_art_cafe)",
+      "[QLOO TAG MAP] Spanish Abstract Paintings -> no confident Qloo tag",
+      "[QLOO TAG MAP] Graphic Print Collecting -> Print (urn:tag:media_type:qloo:print)",
+      "[QLOO TAG MAP] Minimalist Design Aesthetic -> Aesthetic (urn:tag:target_audience:qloo:aesthetic)",
+      "[QLOO TAG MAP] High-Energy Mediterranean Lifestyle -> Mediterranean Lifestyle (urn:tag:lifestyle:qloo:mediterranean_lifestyle)",
+      "[QLOO] /search resolved entity \"Chamberí district\" -> Ahmedabad District (DD0D1377-DB28-415A-B8BE-C2E17FDA4B65)",
+      "[QLOO] /search resolved entity \"Madrid\" -> Madrid (D664F4D6-FCD6-46C2-981C-B37799FA9ACC)",
+      "[QLOO] /search resolved entity \"London\" -> London (4F18635D-75D6-43EC-B8B9-8DFAEB8C5A29)",
+      "[QLOO] /search resolved entity \"Southern European tech investors\" -> University of Science and Technology of Southern Philippines (718DB3BC-4EF2-48BC-BA04-682827C1FA7D)",
+      "[QLOO] /search resolved entity \"Spanish artisanal leather footwear\" -> Van Loock footwear and leather goods (668A47A6-7D17-4958-9E2C-7ADD5824996B)",
+      "[QLOO] /search resolved entity \"Natural wine bars\" -> DiWine Natural Wine Bar & Restaurant (18F836D3-5CB9-4079-96C6-E8E607F42097)",
+      "[QLOO] /search resolved entity \"Third-wave espresso lounges\" -> Caffetteria 3rd Wave Espresso (07D8F337-BFAE-4306-81F7-F8CF91A2707E)",
+      "[QLOO] /search resolved entity \"Indie rock scene\" -> SaG's Indie Electro Rock Playlist March 2010 (533D4D3D-8682-4FA1-9488-AD5673F7EFA3)",
+      "[QLOO] /search resolved entity \"Chef-driven culinary laboratories\" -> Chef Works  Culinary Uniforms (AF5597D7-75F1-490C-A915-E749A486700C)",
+      "[QLOO] /search resolved entity \"Vinyl listening bars\" -> Chatham Bars Inn (4F7C75C2-B024-481D-910F-AB6CB68778B8)",
+      "[QLOO] Multi-layered Qloo query: 20 tag signals + 10 entity affinity seeds.",
+      "[QLOO] /v2/insights place signals(tags:20, entities:10) location=Tokyo offset=0 take=24 -> 24 candidates",
+      "[QLOO] /v2/insights place signals(tags:20, entities:10) location=Tokyo offset=24 take=24 -> 24 candidates",
+      "[QLOO] /v2/trending unavailable for seeds; skipped",
+      "[RANK] tag-overlap top3/category -> Hotel:3 Museum:3 Bar:2 Restaurant:3 Cafe:2 (kept 13/48 unique)",
+      "[AGENT] Synthesizing corporate strategy report and taste rationales...",
+      "[SCHEDULER] Composing time-blocked 1-day itinerary...",
+      "[EXPORT] Package ready: PDF/ICS/CSV available.",
+      "[CACHE] ✅ Result saved to disk for future instant retrieval (key: carlos::tokyo)."
+    ],
+    "mode": "live",
+    "cachedAt": 1793233960723
+  },
+  "liam::tokyo": {
+    "tags": [
+      {
+        "name": "Vinyl listening bars",
+        "category": "Nightlife",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:setting:qloo:listening_bar",
+        "qlooTagName": "Listening Bar"
+      },
+      {
+        "name": "Brutalist architecture",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:brutalist_architecture",
+        "qlooTagName": "Brutalist Architecture"
+      },
+      {
+        "name": "Mid-Century Modern",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:mid_century_modern",
+        "qlooTagName": "Mid Century Modern"
+      },
+      {
+        "name": "Specialty Coffee",
+        "category": "Dining",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Modern Jazz",
+        "category": "Music",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:genre:music:modern_jazz",
+        "qlooTagName": "modern jazz"
+      },
+      {
+        "name": "Ambient Electronic",
+        "category": "Music",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:style:qloo:ambient_electronic",
+        "qlooTagName": "Ambient Electronic"
+      },
+      {
+        "name": "Independent Cinema",
+        "category": "Nightlife",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:independent_cinema",
+        "qlooTagName": "Independent Cinema"
+      },
+      {
+        "name": "Independent Books & Graphic Novels",
+        "category": "Books",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:genre:media:novels",
+        "qlooTagName": "Novels"
+      },
+      {
+        "name": "Contemporary Art",
+        "category": "Art",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:contemporary_art",
+        "qlooTagName": "Contemporary Art"
+      },
+      {
+        "name": "Scandinavian Minimalism",
+        "category": "Design",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:decor:qloo:scandinavian_minimalism",
+        "qlooTagName": "Scandinavian Minimalism"
+      },
+      {
+        "name": "Natural Wine & Vermouth Bars",
+        "category": "Nightlife",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:cuisine:qloo:natural_wine",
+        "qlooTagName": "Natural Wine"
+      },
+      {
+        "name": "Artisanal Craftsmanship",
+        "category": "Other",
+        "sourceContext": "rule-based",
+        "qlooTagId": "urn:tag:interests:qloo:artisanal_craftsmanship",
+        "qlooTagName": "Artisanal Craftsmanship"
+      },
+      {
+        "name": "Bauhaus furniture",
+        "category": "Design",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:category:place:furniture",
+        "qlooTagName": "Furniture"
+      },
+      {
+        "name": "Japanese heritage denim",
+        "category": "Fashion",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:material:qloo:denim",
+        "qlooTagName": "Denim"
+      },
+      {
+        "name": "Vintage jazz vinyl",
+        "category": "Music",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:interest_adjacency:qloo:vintage_jazz_vinyl",
+        "qlooTagName": "Vintage Jazz Vinyl"
+      },
+      {
+        "name": "Electronic vinyl records",
+        "category": "Music",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:product_service:qloo:vinyl_records",
+        "qlooTagName": "Vinyl Records"
+      },
+      {
+        "name": "Underground listening bars",
+        "category": "Nightlife",
+        "sourceContext": "user addition"
+      },
+      {
+        "name": "Third-wave specialty coffee",
+        "category": "Dining",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:ingredient_focus:qloo:specialty_coffee",
+        "qlooTagName": "Specialty Coffee"
+      },
+      {
+        "name": "Single-origin beans",
+        "category": "Dining",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:interests:qloo:single_origin_beans",
+        "qlooTagName": "Single Origin Beans"
+      },
+      {
+        "name": "Sustainable craftsmanship",
+        "category": "Fashion",
+        "sourceContext": "user addition"
+      },
+      {
+        "name": "Independent design bookshops",
+        "category": "Books",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:interests:qloo:independent_design",
+        "qlooTagName": "Independent Design"
+      },
+      {
+        "name": "Natural wine lounges",
+        "category": "Nightlife",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:category:place:lounge",
+        "qlooTagName": "Lounge"
+      },
+      {
+        "name": "Ambient minimal techno",
+        "category": "Music",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:genre:music:techno",
+        "qlooTagName": "Techno"
+      },
+      {
+        "name": "Experimental cuts",
+        "category": "Music",
+        "sourceContext": "user addition",
+        "qlooTagId": "urn:tag:aesthetic_property:qloo:experimental_cuts",
+        "qlooTagName": "Experimental Cuts"
+      }
+    ],
+    "rationaleReport": "**Corporate Strategy Report: Tokyo Experience for Mr. Sterling**\n\n**Client Archetype Profile**\nMr. Sterling is a discerning connoisseur who values tactile authenticity and intellectual depth, favoring spaces that merge sustainable craftsmanship with avant-garde aesthetics. His profile indicates a preference for curated, low-key environments where sensory precision—whether in audio, flavor, or design—takes precedence over overt luxury.\n\n**Strategic Taste Rationale**\n\n*   **French Restaurant AZUR et MASA UEKI**: This venue aligns with Sterling’s appreciation for natural wine and refined culinary artistry, offering a sophisticated pairing that mirrors his interest in sustainable craftsmanship and high-end gastronomy.\n*   **Sukiyabashi Jiro Roppongi Hills Restaurant**: As a pinnacle of artisanal craftsmanship, Jiro satisfies Sterling’s demand for precision and heritage, echoing his respect for Japanese heritage denim and meticulous traditional techniques.\n*   **Cotton Club**: This intimate setting provides the ambient, low-light atmosphere ideal for his passion for modern jazz and vintage vinyl, creating a sensory backdrop that complements his love for underground listening bars.\n*   **Kenzo Estate Winery Hiroo**: Reflecting his interest in Scandinavian minimalism and contemporary art, this space offers a curated blend of design and natural wine that resonates with his taste for independent, aesthetically driven experiences.\n*   **BAR DORAS**: Known for its experimental approach to spirits and mixology, this bar appeals to Sterling’s affinity for experimental cuts and natural wine lounges, offering a sophisticated yet unconventional tasting experience.\n*   **Cask Strength**: While categorized as a museum, this venue’s focus on the history and craftsmanship of whisky production aligns with Sterling’s interest in artisanal craftsmanship and the narrative depth found in independent books and graphic novels.\n\n**Closing Recommendation**\nWe recommend prioritizing **Cotton Club** for evening entertainment to maximize the synergy between his jazz preferences and the venue’s atmospheric integrity, while scheduling **Kenzo Estate Winery Hiroo** for a daytime engagement to showcase his interest in design and natural wine. This balanced itinerary ensures a cohesive narrative of refined, culturally rich experiences tailored to Mr. Sterling’s unique aesthetic sensibilities.",
+    "venues": [
+      {
+        "id": "D30DC16F-B134-4BFC-8F28-BF85506286AD",
+        "name": "French Restaurant AZUR et MASA UEKI",
+        "category": "Restaurant",
+        "affinity": 0.8152365505316935,
+        "lat": 35.6609998,
+        "lon": 139.721803,
+        "address": "MAビルディング, 1F 2 Chome-24-7 Nishiazabu Minato City, Tokyo 106-0031 Japan",
+        "image": "https://images.qloo.com/i/D30DC16F-B134-4BFC-8F28-BF85506286AD-1JWvfF-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: French Restaurant AZUR et MASA UEKI bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "24EFDB7A-FB8E-402B-9718-79FB0545B53D",
+        "name": "Sukiyabashi Jiro Roppongi Hills Restaurant",
+        "category": "Restaurant",
+        "affinity": 0.8150423900675557,
+        "lat": 35.6586978,
+        "lon": 139.72914459999998,
+        "address": "Japan 〒106-0032 Tokyo, Minato City, Roppongi, 6 Chome−12−2 六本木けやき坂通り 3F",
+        "image": "https://images.qloo.com/i/24EFDB7A-FB8E-402B-9718-79FB0545B53D-2Qj7Tf-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Sukiyabashi Jiro Roppongi Hills Restaurant bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "02BD7755-0FC9-4D80-8905-E63B94CDBDAC",
+        "name": "Cotton Club",
+        "category": "Restaurant",
+        "affinity": 0.8171654038014574,
+        "lat": 35.6785783,
+        "lon": 139.7649684,
+        "address": "東京ビルTOKIA 2F 2F 2 Chome-7-3 Marunouchi Chiyoda City, Tokyo 100-6402 Japan",
+        "image": "https://images.qloo.com/i/02BD7755-0FC9-4D80-8905-E63B94CDBDAC-32I7Do-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Cotton Club bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "A628DF87-E159-46F2-9125-2770AC6A8161",
+        "name": "Kenzo Estate Winery Hiroo",
+        "category": "Shop",
+        "affinity": 0.8147035435158381,
+        "lat": 35.6471297,
+        "lon": 139.7242326,
+        "address": "セントレ1F 4 Chome-12-25 Minamiazabu Minato City, Tokyo 106-0047 Japan",
+        "image": "https://images.qloo.com/i/A628DF87-E159-46F2-9125-2770AC6A8161-3hPnfU-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Kenzo Estate Winery Hiroo bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "6C10AC9E-DB4F-4A8D-8C0E-3850E629B1C0",
+        "name": "BAR DORAS",
+        "category": "Bar",
+        "affinity": 0.814884584237934,
+        "lat": 35.714220999999995,
+        "lon": 139.801393,
+        "address": "Japan 〒111-0033 Tokyo, Taito City, Hanakawado, 2 Chome−2−6",
+        "image": "https://images.qloo.com/i/6C10AC9E-DB4F-4A8D-8C0E-3850E629B1C0-3CIRdX-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: BAR DORAS bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      },
+      {
+        "id": "A8147C94-8CC8-4942-9A20-51B39659883C",
+        "name": "Cask Strength",
+        "category": "Museum",
+        "affinity": 0.8196365773386514,
+        "lat": 35.6639155,
+        "lon": 139.73406269999998,
+        "address": "3 Chome-9-11 Roppongi Minato City, Tokyo 106-0032 Japan",
+        "image": "https://images.qloo.com/i/A8147C94-8CC8-4942-9A20-51B39659883C-0LMKIH-420x-outside.jpg",
+        "rationale": "Strategic Taste Rationale: Cask Strength bridges the client's Vinyl listening bars & Brutalist architecture preferences with Tokyo's local scene."
+      }
+    ],
+    "itinerary": [
+      {
+        "time": "09:00",
+        "title": "French Restaurant AZUR et MASA UEKI",
+        "venueId": "D30DC16F-B134-4BFC-8F28-BF85506286AD",
+        "notes": "Restaurant"
+      },
+      {
+        "time": "12:30",
+        "title": "Sukiyabashi Jiro Roppongi Hills Restaurant",
+        "venueId": "24EFDB7A-FB8E-402B-9718-79FB0545B53D",
+        "notes": "Restaurant"
+      },
+      {
+        "time": "16:00",
+        "title": "Cotton Club",
+        "venueId": "02BD7755-0FC9-4D80-8905-E63B94CDBDAC",
+        "notes": "Restaurant"
+      },
+      {
+        "time": "19:30",
+        "title": "Kenzo Estate Winery Hiroo",
+        "venueId": "A628DF87-E159-46F2-9125-2770AC6A8161",
+        "notes": "Shop"
+      }
+    ],
+    "logs": [
+      "[INTAKE] Received profile for Liam Sterling.",
+      "[OSINT] Triggering Jina proxy scrape engine for target URL...",
+      "[OSINT] Local/Mock URL detected. Circumventing Jina proxy to load high-fidelity template locally...",
+      "[OSINT] Successfully parsed mock profile locally. Raw payload size: 1608 bytes.",
+      "[LLM AGENT 1] Scanning text stream for micro-cultural preferences and entity anchors...",
+      "[LLM] Extracting structured taste parameters and specific brand/artist entities...",
+      "[LLM AGENT 1] Diligently isolated 12 taste variables: Vinyl listening bars, Brutalist architecture, Mid-Century Modern, Specialty Coffee, Modern Jazz, Ambient Electronic, Independent Cinema, Independent Books & Graphic Novels, Contemporary Art, Scandinavian Minimalism, Natural Wine & Vermouth Bars, Artisanal Craftsmanship",
+      "[LLM AGENT 1] Isolated 3 specific cultural entity anchors: Kamasi Washington, Norah Jones, Herman Miller",
+      "[LLM] Merged user additions: Vinyl listening bars, Brutalist architecture, Mid-Century Modern, Specialty Coffee, Modern Jazz, Ambient Electronic, Independent Cinema, Independent Books & Graphic Novels, Contemporary Art, Scandinavian Minimalism, Natural Wine & Vermouth Bars, Artisanal Craftsmanship, Bauhaus furniture, Japanese heritage denim, Vintage jazz vinyl, Electronic vinyl records, Underground listening bars, Third-wave specialty coffee, Single-origin beans, Sustainable craftsmanship, Independent design bookshops, Natural wine lounges, Ambient minimal techno, Experimental cuts",
+      "[QLOO] Resolving 24 taste indicators to Qloo tag URNs...",
+      "[QLOO TAG MAP] Vinyl listening bars -> Listening Bar (urn:tag:setting:qloo:listening_bar)",
+      "[QLOO TAG MAP] Brutalist architecture -> Brutalist Architecture (urn:tag:decor:qloo:brutalist_architecture)",
+      "[QLOO TAG MAP] Mid-Century Modern -> Mid Century Modern (urn:tag:decor:qloo:mid_century_modern)",
+      "[QLOO TAG MAP] Specialty Coffee -> Specialty Coffee (urn:tag:interests:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Modern Jazz -> modern jazz (urn:tag:genre:music:modern_jazz)",
+      "[QLOO TAG MAP] Ambient Electronic -> Ambient Electronic (urn:tag:style:qloo:ambient_electronic)",
+      "[QLOO TAG MAP] Independent Cinema -> Independent Cinema (urn:tag:interests:qloo:independent_cinema)",
+      "[QLOO TAG MAP] Independent Books & Graphic Novels -> Novels (urn:tag:genre:media:novels)",
+      "[QLOO TAG MAP] Contemporary Art -> Contemporary Art (urn:tag:interests:qloo:contemporary_art)",
+      "[QLOO TAG MAP] Scandinavian Minimalism -> Scandinavian Minimalism (urn:tag:decor:qloo:scandinavian_minimalism)",
+      "[QLOO TAG MAP] Natural Wine & Vermouth Bars -> Natural Wine (urn:tag:cuisine:qloo:natural_wine)",
+      "[QLOO TAG MAP] Artisanal Craftsmanship -> Artisanal Craftsmanship (urn:tag:interests:qloo:artisanal_craftsmanship)",
+      "[QLOO TAG MAP] Bauhaus furniture -> Furniture (urn:tag:category:place:furniture)",
+      "[QLOO TAG MAP] Japanese heritage denim -> Denim (urn:tag:material:qloo:denim)",
+      "[QLOO TAG MAP] Vintage jazz vinyl -> Vintage Jazz Vinyl (urn:tag:interest_adjacency:qloo:vintage_jazz_vinyl)",
+      "[QLOO TAG MAP] Electronic vinyl records -> Vinyl Records (urn:tag:product_service:qloo:vinyl_records)",
+      "[QLOO TAG MAP] Underground listening bars -> no confident Qloo tag",
+      "[QLOO TAG MAP] Third-wave specialty coffee -> Specialty Coffee (urn:tag:ingredient_focus:qloo:specialty_coffee)",
+      "[QLOO TAG MAP] Single-origin beans -> Single Origin Beans (urn:tag:interests:qloo:single_origin_beans)",
+      "[QLOO TAG MAP] Sustainable craftsmanship -> no confident Qloo tag",
+      "[QLOO TAG MAP] Independent design bookshops -> Independent Design (urn:tag:interests:qloo:independent_design)",
+      "[QLOO TAG MAP] Natural wine lounges -> Lounge (urn:tag:category:place:lounge)",
+      "[QLOO TAG MAP] Ambient minimal techno -> Techno (urn:tag:genre:music:techno)",
+      "[QLOO TAG MAP] Experimental cuts -> Experimental Cuts (urn:tag:aesthetic_property:qloo:experimental_cuts)",
+      "[QLOO] /search resolved entity \"Kamasi Washington\" -> Kamasi Washington (A2209515-2E4C-413D-AE69-3E5F19324F9A)",
+      "[QLOO] /search resolved entity \"Norah Jones\" -> Norah Jones (CFB97CDA-1B2D-4F1A-B707-415E76AFC016)",
+      "[QLOO] /search resolved entity \"Herman Miller\" -> Herman Miller (520AD5EE-A663-4DB0-821F-2118E401F7AC)",
+      "[QLOO] /search resolved entity \"Vinyl listening bars\" -> Chatham Bars Inn (4F7C75C2-B024-481D-910F-AB6CB68778B8)",
+      "[QLOO] /search resolved entity \"Brutalist architecture\" -> MAAT - Museum of Art, Architecture and Technology (8B664143-7B4F-4C90-9A16-4C60F1ACE4F0)",
+      "[QLOO] /search resolved entity \"Mid-Century Modern\" -> Mid-Century Modern (6CA722E0-13C6-41C3-A50C-75F48B926CAA)",
+      "[QLOO] /search resolved entity \"Specialty Coffee\" -> Specialty Coffee Maliha (1E7727BC-4E87-4E8E-8135-47D3EF9AC45D)",
+      "[QLOO] /search resolved entity \"Modern Jazz\" -> Modern Jazz Quartet (A7EEFAF9-660B-483F-94C9-630F0481995A)",
+      "[QLOO] /search resolved entity \"Ambient Electronic\" -> Electronic Architecture 2 (Ambient Edition) (45EE26E2-E898-49D5-A4F5-3D308C45521D)",
+      "[QLOO] /search resolved entity \"Independent Cinema\" -> Spike, Mike, Slackers &amp; Dykes: A Guided Tour Across a Decade of American Independent Cinema (8F1583BD-9AE6-42D9-851C-7C2891B62EDC)",
+      "[QLOO] Multi-layered Qloo query: 22 tag signals + 10 entity affinity seeds.",
+      "[QLOO] /v2/insights place signals(tags:22, entities:10) location=Tokyo offset=0 take=24 -> 24 candidates",
+      "[QLOO] /v2/insights place signals(tags:22, entities:10) location=Tokyo offset=24 take=24 -> 24 candidates",
+      "[QLOO] /v2/trending unavailable for seeds; skipped",
+      "[RANK] tag-overlap top3/category -> Restaurant:3 Shop:1 Bar:1 Museum:1 (kept 6/48 unique)",
+      "[AGENT] Synthesizing corporate strategy report and taste rationales...",
+      "[SCHEDULER] Composing time-blocked 1-day itinerary...",
+      "[EXPORT] Package ready: PDF/ICS/CSV available."
+    ],
+    "mode": "live",
+    "cachedAt": 1793237713250
+  }
+}
